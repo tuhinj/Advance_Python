@@ -40,15 +40,14 @@ fs = (('joy', 100, 2.3, 3))
 print('frozenset:',fs)
 
     # bool = True, False
-name = 'joy'
-if name == joy:
-    print(True)
-else:
     # bytes, bytearray, memoryview...
     # none //js in null python none...
 
 # Arithmetic Operators...
     # +, -, *, /, %, **,//
+n1 = 10
+n2 = 3
+print('All Arithmetic Operation:',n1 + n2, n1 - n2, n1 * n2, n1 / n2, n1 % n2, (n1 + n2)**2, n1 // n2)
     # PEMDAS
     # P = parenthesis ()
     # E = Exponent **
@@ -56,10 +55,20 @@ else:
     # D = Devition /
     # A = Addition +
     # S = Subtraction -
+
 # Assignment Operators...
     #=, +=, -=, /=, %/, //=, **=
     # age = age + 2 or age += 2
+age = 20 
+age += 2
+print(age)
+
 #Logical Operators...
     # and, or, not
+joy = 'worker'
+if joy == 'student' or joy == 'teacher':
+    print('Get parmite to access the University')
+else: print('Sorry!')
+
 # Identity Operators...
-gi
+    # is, is not
