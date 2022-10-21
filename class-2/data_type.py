@@ -106,11 +106,11 @@ print("Rahim" in students)
 # variables
     # sum_of_numbers = 3 + 4 + 6
 
-    #     # pascal case = StudentOneName
+        # pascal case = StudentOneName
 
-    #     # camel case = studentOneName
+        # camel case = studentOneName
 
-    #     # snake case = student_one_name # used for declaring variables
+        # snake case = student_one_name # used for declaring variables
 
     # print(sum_of_numbers)
 

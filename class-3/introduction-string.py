@@ -27,10 +27,10 @@ c = "hello world from ugv. I'm Joy"
 
 # c = c.upper()
 # c = c.title()
-# c = c.replace("world", "barishal").lstrip().title()
+c = c.replace("world", "barishal").lstrip().title()
 # d = "Hello-world-from-ugv"
-d = c.strip("-")
-print(d)
+# d = c.strip("-")
+# print(d)
 # print(" ".join(c))
 
 # string concatenation
