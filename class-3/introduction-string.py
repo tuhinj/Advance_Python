@@ -7,14 +7,22 @@
     # c = "Hello world from ugv"
 
 # string slicing
-c = "Hello world from ugv"
+# c = "Hello world from ugv"
 # print(c[1], c[2], c[3], sep="")
 # print(c[-8:-4])
-print(c[:4])
+# print(c[:5])
+# print(c[17:])
+# print(c[:-14])
+# print(c[-3:])
 
 # string modification
-# upper(), lower(), strip(), replace(), split()
-# print(c.upper())
+# upper(), lower(), strip(), replace(), split(), capitalize()
+c = "hello world from ugv"
+print(c.upper())
+print(c.capitalize())
+print(c.lower())
+d = c.split("*")
+print(d)
 # c = c.upper()
 # c = c.title()
 # c = c.replace("world", "barishal").lstrip().title()
@@ -23,6 +31,7 @@ print(c[:4])
 # d = "-".join(d)
 # print(d)
 # print(" ".join(c))
+
 # string concatenation
 # e = "Hello"
 # f = "world"
