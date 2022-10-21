@@ -1,13 +1,17 @@
 # introduction to string
-# a = ["hello", "hi", 1]
-# a[1] = "bye"
-# print(a)
-# b = ("hello", "hi", 3, 4)
-# print(b)
-c = "Hello world from ugv"
+    # a = ["hello", "hi", 1]
+    # a[1] = "bye"
+    # print(a)
+    # b = ("hello", "hi", 3, 4)
+    # print(b)
+    # c = "Hello world from ugv"
+
 # string slicing
+c = "Hello world from ugv"
 # print(c[1], c[2], c[3], sep="")
 # print(c[-8:-4])
+print(c[:4])
+
 # string modification
 # upper(), lower(), strip(), replace(), split()
 # print(c.upper())
@@ -20,8 +24,8 @@ c = "Hello world from ugv"
 # print(d)
 # print(" ".join(c))
 # string concatenation
-e = "Hello"
-f = "world"
+# e = "Hello"
+# f = "world"
 # g = e + " " + f
 # print(e + " " + f)
 # formatting string
@@ -34,8 +38,8 @@ f = "world"
 # print("Hello world from ugv".startswith("ugv"))
 # endswith()
 # find()
-h = "Hello woarld world"
-print(h.find("world"))
+# h = "Hello woarld world"
+# print(h.find("world"))
 # replace()
 # isalnum()
 # islower()
