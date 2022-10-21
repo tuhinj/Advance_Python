@@ -17,19 +17,20 @@
 
 # string modification
 # upper(), lower(), strip(), replace(), split(), capitalize()
-c = "hello world from ugv"
-print(c.upper())
-print(c.capitalize())
-print(c.lower())
-d = c.split("*")
-print(d)
+c = "hello world from ugv. I'm Joy"
+# print(c.upper())
+# print(c.capitalize())
+# print(c.lower())
+# print(c.title())
+# d = c.split()
+# print(d)
+
 # c = c.upper()
 # c = c.title()
 # c = c.replace("world", "barishal").lstrip().title()
 # d = "Hello-world-from-ugv"
-# d = d.split("-")
-# d = "-".join(d)
-# print(d)
+d = c.strip("-")
+print(d)
 # print(" ".join(c))
 
 # string concatenation
