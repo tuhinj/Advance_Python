@@ -17,7 +17,7 @@
 
 # string modification
 # upper(), lower(), strip(), replace(), split(), capitalize()
-c = "hello world from ugv. I'm Joy"
+# c = "hello world from ugv. I'm Joy"
 # print(c.upper())
 # print(c.capitalize())
 # print(c.lower())
@@ -27,7 +27,7 @@ c = "hello world from ugv. I'm Joy"
 
 # c = c.upper()
 # c = c.title()
-c = c.replace("world", "barishal").lstrip().title()
+# c = c.replace("world", "barishal").lstrip().title()
 # d = "Hello-world-from-ugv"
 # d = c.strip("-")
 # print(d)
@@ -62,6 +62,5 @@ c = c.replace("world", "barishal").lstrip().title()
 # upper()
 # lower()
 # swapcase()
-# i = "Hello world"
-# print(i.swapcase())
-# title()
+i = "hello world"
+print(i.swapcase())
