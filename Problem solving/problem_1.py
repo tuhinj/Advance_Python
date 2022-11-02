@@ -20,9 +20,9 @@ The input file contains 2 floating points' values with one digit after the decim
 Output
 Print the message "MEDIA"(average in Portuguese) and the student's average according to the following example, with 5 digits after the decimal point and with a blank space before and after the equal signal.
 """
-A = 5.0
-B = 7.1
+A = float(input())
+B = float(input())
 
-MEDIA = (A + B)/2
+MEDIA = float((A*3.5 + B*7.5)/(3.5 + 7.5))
 
 print("MEDIA = %.5f" % MEDIA)
