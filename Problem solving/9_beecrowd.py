@@ -15,4 +15,6 @@ name = input()
 fixt_salary = float(input())
 total_sold_money = float(input())
 
-total = 
+total = float(fixt_salary + (total_sold_money*0.15))
+
+print("")
