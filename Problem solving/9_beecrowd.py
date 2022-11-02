@@ -17,4 +17,4 @@ total_sold_money = float(input())
 
 total = float(fixt_salary + (total_sold_money*0.15))
 
-print("")
+print("TOTAL = R$ %.2f"%total)
