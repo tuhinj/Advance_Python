@@ -16,10 +16,14 @@ values = input().split(" ")
 
 A, B, C = values
 
-triangle_area = float(1/2(A*C))
-circle_area = flaoat(3.14159 * C**2)
-trapezium_area = float(1/2*C(A * B))
-square_area = float(B**2)
-rectangle_area = float(1/2 (A + B))
+triangle_area = (1/2)*(float(A)*float(C))
+circle_area = 3.14159 * float(C)**2
+trapezium_area = (1/2)*float(C)*(float(A) + float(B))
+square_area = float(B)**2
+rectangle_area = float(A) * float(B)
 
-print("TRIANGULO: \n%.3f" %triangle_area,"CIRCULO: \n%.3f" %circle_area )
+print("TRIANGULO: %.3f" %triangle_area)
+print("CIRCULO: %.3f" %circle_area)
+print("TRAPEZIO: %.3f" %trapezium_area)
+print("QUADRADO: %.3f" %square_area)
+print("RETANGULO: %.3f" %rectangle_area)
