@@ -15,4 +15,4 @@ product2_code, product2_number, product2_price = line_two
 
 paid = (int(product1_number)*float(product1_price) + int(product2_number)*float(product2_price))
 
-print("VALAR A PAFAR: R$ %.2f" %paid)
+print(f"VALAR A PAFAR: R$ %.2f{paiid:.2f}")
