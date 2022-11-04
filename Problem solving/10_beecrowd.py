@@ -7,8 +7,11 @@ The input file contains two lines of data. In each line there will be 3 values: 
 Output
 The output file must be a message like the following example where "Valor a pagar" means Value to Pay. Remember the space after ":" and after "R$" symbol. The value must be presented with 2 digits after the point.
 '''
-line_one= input("Line one: ").split(product1_code, product1_number, product1_price)
-line_two = input("Line two: ").split(product1_code, product1_number, product1_price)
+line_one= input("Line one: ").split("")
+line_two = input("Line two: ").split("")
+
+product1_code, product1_number, product1_price = line_one
+product2_code, product2_number, product2_price = line_two
 
 paid = (int(product1_number)*float(product1_price) + int(product2_number)*float(product2_price))
 
