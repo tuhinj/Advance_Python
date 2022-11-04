@@ -12,3 +12,14 @@ The input file contains three double values with one digit after the decimal poi
 Output
 The output file must contain 5 lines of data. Each line corresponds to one of the areas described above, always with a corresponding message (in Portuguese) and one space between the two points and the value. The value calculated must be presented with 3 digits after the decimal point.
 '''
+values = input().split(" ")
+
+A, B, C = values
+
+triangle_area = float(1/2(A*C))
+circle_area = flaoat(3.14159 * C**2)
+trapezium_area = float(1/2*C(A * B))
+square_area = float(B**2)
+rectangle_area = float(1/2 (A + B))
+
+print("TRIANGULO: \n%.3f" %triangle_area,"CIRCULO: \n%.3f" %circle_area )
