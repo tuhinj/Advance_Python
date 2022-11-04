@@ -9,3 +9,8 @@ The input contains a value of floating point (double precision).
 Output
 The output must be a message "VOLUME" like the following example with a space before and after the equal signal. The value must be presented with 3 digits after the decimal point.
 '''
+R = float(input())
+
+v = float(4/3 * 3.14159 * R**3)
+
+print("VOLUME = %.3f" %v)
