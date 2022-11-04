@@ -6,9 +6,9 @@
 # else:
 #     print(n + ":","Not Weird")
 
-linha1 = input().split(" ")
-linha2 = input().split(" ")
-cod1, qtde1, valor1 = linha1
-cod2, qtde2, valor2 = linha2
-total = (int(qtde1) * float(valor1)) +                    (int(qtde2) * float(valor2))
+line1 = input().split(" ")
+line2 = input().split(" ")
+cod1, num1, price1 = line1
+cod2, num2, price2 = line2
+total = (int(num1) * float(price1)) + (int(num2) * float(price2))
 print(f'VALOR A PAGAR: R$ {total:.2f}')        
