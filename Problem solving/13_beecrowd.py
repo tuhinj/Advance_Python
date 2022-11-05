@@ -9,10 +9,10 @@ The input file contains 3 integer values.
 Output
 Print the greatest of these three values followed by a space and the message “eh o maior”.
 '''
-values = int(input()).split(" ")
+values = input().split(" ")
 a, b, c = values
 
-max_num = max(values)
+ab = (int(a) + int(b) + abs(int(a) - int(b)))/2
+abc = (int(ab) + int (c) + abs (int(ab) - int(c)))/2
 
-print(values,"eh o maior")
-
+print("%.f eh o maior"%abc)
