@@ -86,8 +86,8 @@
 
 # - Membership operators
     # in, not in
-students = ["Rahim", "Karim", "Sajal"]
-print("Rahim" in students)
+# students = ["Rahim", "Karim", "Sajal"]
+# print("Rahim" in students)
 
 # - Bitwise operators
 
