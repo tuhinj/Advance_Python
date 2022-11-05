@@ -15,6 +15,9 @@ b = [1, 2, 3]
 c = [3, 4, 5]
 
 f = b + c # 'concat' add two list in on variable...
-b.extend(f) # 'exgend' add two variabel list 
+b.extend(f) # 'exgend()' add two variabel list 
 print(f)
+print(b)
+
+b.sort() # 'sort()' list arrange cquencely...
 print(b)
