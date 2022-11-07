@@ -9,11 +9,11 @@ The input file contains two lines of data. The first one contains two double val
 Output
 Calculate and print the distance value using the provided formula, with 4 digits after the decimal point.
 '''
-p1 = float(input().split(" "))
-p2 = float(input().split(" "))
-x1, x2 = p1
-y1, y2 = p2
+p1 = input().split(" ")
+p2 = input().split(" ")
+x1, y1 = p1
+x2, y2 = p2
 
-d = (((x2 - x1)**2)+((y2 - y1)**2))**0.5
+d = ((((float(x2) - float(x1))**2)+((float(y2) - float(y1))**2))**0.5)
 
 print("%.4f" %d)
