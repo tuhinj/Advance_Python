@@ -10,5 +10,9 @@ The input file contains 1 integer value.
 
 Output
 Print the necessary time followed by the message "minutos" that means minutes in Portuguese.
-
 '''
+D = int(input())
+
+time = D * 2
+
+print(time,"minutos")
