@@ -8,3 +8,11 @@ Output
 Print how many liters would be needed to do this trip, with three digits after the decimal point
 '''
 
+fuel = 12 # 12 km/l user for a car
+time = int(input())
+average_speed = int(input())
+
+distance = average_speed * time # distance formula = speed * time
+total_fuel = float(distance / fuel) # total_fuel = distance / fuel
+
+print("%.3f" %total_fuel)
