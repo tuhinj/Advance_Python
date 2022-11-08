@@ -8,9 +8,15 @@ Output
 Print the read number and the minimum quantity of each necessary banknotes in Portuguese language, as the given example. Do not forget to print the end of line after each line, otherwise you will receive “Presentation Error”.
 '''
 
-N = int(input())
+a = int(input())
 
 
-if 0 < N <1000000:
-    while 
-    print()
+
+print(N,"nota(s) de R$ 100,00")
+print(N,"nota(s) de R$ 50,00")
+print(N,"nota(s) de R$ 20,00")
+print(N,"nota(s) de R$ 10,00")
+print(N,"nota(s) de R$ 5,00")
+print(N,"nota(s) de R$ 2,00")
+print(N,"nota(s) de R$ 1,00")
+
