@@ -8,8 +8,8 @@ Output
 Print the read time in the input file (seconds) converted in hours:minutes:seconds like the following example.
 '''
 N = int(input())
-
-H = N / (60*60)
-M = float((H % 60) / 60)
-print(H)
-print(M)
+H = int(N/(60*60))
+h = int(N%(60*60))
+M = int(h/60)
+S = int(h%60)
+print(f"{H:.0f}:{M:.0f}:{S:.0f}")
