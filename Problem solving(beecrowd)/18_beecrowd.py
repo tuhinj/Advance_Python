@@ -10,13 +10,21 @@ Print the read number and the minimum quantity of each necessary banknotes in Po
 
 a = int(input())
 
+print(a)
 
+b = float(a / 100)
 
-print(N,"nota(s) de R$ 100,00")
-print(N,"nota(s) de R$ 50,00")
-print(N,"nota(s) de R$ 20,00")
-print(N,"nota(s) de R$ 10,00")
-print(N,"nota(s) de R$ 5,00")
-print(N,"nota(s) de R$ 2,00")
-print(N,"nota(s) de R$ 1,00")
-
+print(" nota(s) de R$ 100,00",b)
+c = float(a % 100)
+print(c)
+print("%.0f nota(s) de R$ 50,00"%float(c/50))
+c = float(c % 50)
+print("%.0f nota(s) de R$ 20,00"%float(c/20))
+c = float(c % 20) 
+print("%.0f nota(s) de R$ 10,00"%float(c/10))
+c = float(c % 10) 
+print("%.0f nota(s) de R$ 5,00"%float(c/5))
+c = float(c % 5)
+print("%.0f nota(s) de R$ 2,00"%float(c/2))
+c = float(c % 2)
+print("%.0f nota(s) de R$ 1,00"%float(c/1))
