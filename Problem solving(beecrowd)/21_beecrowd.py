@@ -22,20 +22,21 @@ c = float(c % 10)
 print("%.0f nota(s) de R$ 5.00"%int(c/5))
 c = float(c % 5)
 print("%.0f nota(s) de R$ 2.00"%int(c/2))
+c = int(c % 2)
 
 print("MOEDAS:")
-c = int(c % 2)
-print("%.0f nota(s) de R$ 1.00"%float(c/1))
+
+print("%.0f nota(s) de R$ 1.00"%int(c/1))
 
 b = a * 100
 
 c = int(b % 100)
-print("%.0f nota(s) de R$ 0.50"%float(c/50))
+print("%.0f nota(s) de R$ 0.50"%int(c/50))
 c = int(c % 50)
-print("%.0f nota(s) de R$ 0.25"%float(c/25))
+print("%.0f nota(s) de R$ 0.25"%int(c/25))
 c = int(c % 25)
-print("%.0f nota(s) de R$ 0.10"%float(c/10))
+print("%.0f nota(s) de R$ 0.10"%int(c/10))
 c = int(c % 10)
-print("%.0f nota(s) de R$ 0.05"%float(c/5))
+print("%.0f nota(s) de R$ 0.05"%int(c/5))
 c = int(c %5)
-print("%.0f nota(s) de R$ 0.01"%float(c/1))
+print("%.0f nota(s) de R$ 0.01"%c)
