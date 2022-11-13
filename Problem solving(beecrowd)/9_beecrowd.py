@@ -12,9 +12,10 @@ Output
 Print the seller's total salary, according to the given example.
 '''
 name = input()
-fixt_salary = float(input())
+fixt_salary = float(input()) 
 total_sold_money = float(input())
 
 total = float(fixt_salary + (total_sold_money*0.15))
 
 print("TOTAL = R$ %.2f"%total)
+
