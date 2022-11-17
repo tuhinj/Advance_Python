@@ -4,18 +4,42 @@ school_details = {"address": "Boalia Bazar", "principal": "Sohidullah Kaisar", "
 managing_committee_caniddates = [{"name": "Sultan Ahmed", "age": 43, "occupation": "Service Holder", "designation": "General Member"}, {"name": "Jamsed Khan", "age": 45, "occupation": "Doctor", "designation": "Vice Chairman"}, {"name": "Jahangir Talukder", "age": 47, "occupation": "Doctor", "designation": "Chairman"}, {"name": "Josim Uddin", "age": 38, "occupation": "Farmar", "designation": "Vice Chairman"}]
 
 #0)output the data type of village_school
+print("Type of data:",type(village_school))
+
 #1)output the name of the above school
+print("School Name:",village_school["name"])
+
 #2)try to access "number_of_rooms" key of that school without getting any error
+village_school["number_of_rooms"] = 8
+print("Number of room:",village_school["number_of_rooms"])
+
 #3)change that schools establishment year and make it 1962
+village_school["name"] = "Z A Bhutto High School"
+village_school["established"] = 1962
+print(village_school)
+
 #4)add school_details to village_school
+village_school.update(school_details)
+print(village_school)
 
 # *** PLEASE REMEMBER THAT AFTER ADDING 'school_details' to 'village_school' all items of 'school_details' are now available in 'village_school' dictionary
 
 #5)check the length of village_school after adding school_details to it
+print("Lenth of Village School:",len(village_school))
+
 #6)add number_of_classrooms key with value 25 in village_school dictionary
+village_school.update({"number_of_classrooms": 25})
+print("Number of Classroom:",village_school["number_of_classrooms"])
+
 #7)check the data type of village_school
+print("DATA type",type(village_school))
+
 #8)loop through all the values of village_school and check if any list type data found there if found print the key name
+
+
 #9)output how many members are there in the managing committee
+print()
+
 #10)check if 'Founder of Toto Company' exist in the managing committee if found then remove that person from the managing committee
 #11)output all the members occupation of the managing committee to check "Founder of Toto Company" is not there
 #12)remove the last added item from the village_school (remember we've a built in function for that)
