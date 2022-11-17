@@ -22,7 +22,7 @@ print(village_school)
 village_school.update(school_details)
 print(village_school)
 
-# *** PLEASE REMEMBER THAT AFTER ADDING 'school_details' to 'village_school' all items of 'school_details' are now available in 'village_school' dictionary
+# *** PLEASE REMEMBER THAT AFTER ADDING 'school_details' to 'village_school' all items of 'school_details' are now available in 'village_school' dictionary...
 
 #5)check the length of village_school after adding school_details to it
 print("Lenth of Village School:",len(village_school))
