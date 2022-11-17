@@ -38,7 +38,7 @@ print("DATA type",type(village_school))
 
 
 #9)output how many members are there in the managing committee
-print()
+print(len(managing_committee_caniddates["name"]))
 
 #10)check if 'Founder of Toto Company' exist in the managing committee if found then remove that person from the managing committee
 #11)output all the members occupation of the managing committee to check "Founder of Toto Company" is not there
