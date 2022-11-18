@@ -46,7 +46,8 @@ print("Member Of managing committee:",len(school_details["managing_committee"]))
 
 
 #10)check if 'Founder of Toto Company' exist in the managing committee if found then remove that person from the managing committee
-
+if village_school["managing committee"] == village_school.values('Founder of Toto Company'):
+    print(village_school)
 
 #11)output all the members occupation of the managing committee to check "Founder of Toto Company" is not there
 #12)remove the last added item from the village_school (remember we've a built in function for that)
