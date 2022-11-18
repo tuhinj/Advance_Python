@@ -38,7 +38,8 @@ print("DATA type",type(village_school))
 for village_scl in village_school.values():
     print(village_scl)
     if village_scl == list:
-        print(village_scl.keys())
+        for key in village_scl.keys():
+            print(key)
 
     
 
