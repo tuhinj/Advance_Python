@@ -35,13 +35,9 @@ print("Number of Classroom:",village_school["number_of_classrooms"])
 print("DATA type",type(village_school))
 
 #8)loop through all the values of village_school and check if any list type data found there if found print the key name
-for village_scl in village_school.values():
-    print(village_scl)
-    if village_scl == list:
-        for key in village_scl.keys():
-            print(key)
-
-    
+if village_school == list:
+    keyname = list(village_school.keys())
+    print("keys:",keyname)
 
 
 #9)output how many members are there in the managing committee
