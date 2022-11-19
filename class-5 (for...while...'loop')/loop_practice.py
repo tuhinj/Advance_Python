@@ -16,7 +16,8 @@ while True:
         break
 students = ["Maynuddin", "Tuhin", "Joy"]
 for student in students:
+    print(student)
     if student == "Tuhin":
-        print(student)
+        
         break
 
