@@ -31,10 +31,24 @@ print(b.replace("world", "Bangladesh").strip().title())
 print(" ".join(b).strip())
 
 e = "HELLO"
+f = "hello"
 
 print(e.isupper(),"\n",a.isupper())
 
 print(e.isalnum(),a.isalnum())
+
+print(e.isalpha())
+
+print(f.islower())
+
+print("end:",a.endswith("Joy"))
+
+print("start:",b.startswith("Hello"))
+
+print(a.find("Tuhin"))
+
+
+
 
 # Concatination...
 
@@ -47,11 +61,3 @@ print("Hello I'm From {f}, My name is {n}". format(f = "Bangladesh", n = "Maynud
 print("{0} {1} from ugv".format(b.strip().capitalize(), a))
 
 print(f"Hi: {b.capitalize().strip()}, \nWhat is your name: {a}")
-
-
-
-
-
-
-
-
