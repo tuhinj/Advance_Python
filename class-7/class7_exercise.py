@@ -37,9 +37,10 @@ print("DATA type",type(village_school))
 #8)loop through all the values of village_school and check if any list type data found there if found print the key name
 for values in village_school.values():
     print(values)
-    print(village_school.keys())
-    if values == list():
-        print(village_school.keys())
+    # print(village_school.keys())
+    # if values == list():
+    #     print(village_school.keys())
+
 
 #9)output how many members are there in the managing committee
 print("Member Of managing committee:",len(school_details["managing_committee"]))
@@ -47,7 +48,7 @@ print("Member Of managing committee:",len(school_details["managing_committee"]))
 
 #10)check if 'Founder of Toto Company' exist in the managing committee if found then remove that person from the managing committee
 if village_school["managing committee"] == village_school.values('Founder of Toto Company'):
-    print(village_school)
+    print(village_school["managing committee"])
 
 #11)output all the members occupation of the managing committee to check "Founder of Toto Company" is not there
 #12)remove the last added item from the village_school (remember we've a built in function for that)
