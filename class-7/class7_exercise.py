@@ -32,7 +32,7 @@ village_school.update({"number_of_classrooms": 25})
 print("Number of Classroom:",village_school["number_of_classrooms"])
 
 #7)check the data type of village_school
-print("DATA type",type(village_school))
+print("DATA type:",type(village_school))
 
 #8)loop through all the values of village_school and check if any list type data found there if found print the key name
 for values in village_school.values():
