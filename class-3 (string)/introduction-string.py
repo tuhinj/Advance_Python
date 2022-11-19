@@ -4,7 +4,7 @@
     # print(a)
     # b = ("hello", "hi", 3, 4)
     # print(b)
-    # c = "Hello world from ugv"
+c = "Hello world from ugv"
 
 # string slicing
 # c = "Hello world from ugv"
@@ -31,7 +31,7 @@
 # d = "Hello-world-from-ugv"
 # d = c.strip("-")
 # print(d)
-# print(" ".join(c))
+print(" ".join(c))
 
 # string concatenation
 # e = "Hello"
@@ -62,5 +62,5 @@
 # upper()
 # lower()
 # swapcase()
-i = "hello world"
+i = "Hello World"
 print(i.swapcase())
