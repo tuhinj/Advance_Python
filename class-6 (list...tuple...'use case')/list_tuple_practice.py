@@ -13,7 +13,8 @@ sort()	=> Sorts the list
 '''
 
 a = [1, 2, 3, 4, 5, 4, 3, 5]
-a = a.count()
+
+a.reverse()
 print(a)
 
 # a[4] = 6
