@@ -43,3 +43,7 @@ a.clear()
 
 print(a)
 
+#Tuple
+
+a = ("Maynuddin", "Tuhin", "Joy")
+
