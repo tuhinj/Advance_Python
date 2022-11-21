@@ -43,4 +43,3 @@ a.clear()
 
 print(a)
 
-b.index()
