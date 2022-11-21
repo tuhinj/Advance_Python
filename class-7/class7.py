@@ -1,5 +1,5 @@
 
-# students = {"name": "Sohan", "age": 35, "gender": "Male"}
+students = {"name": "Sohan", "age": 35, "gender": "Male"}
 
 # print(students["age"])
 
@@ -42,8 +42,8 @@
 # for value in students.values():
 #     print(value)
 
-# for item in students.items():
-#     print(item[0] , " => ", item[1])
+for item in students.items():
+    print(item[0] , " => ", item[1])
 
 # for key, value in students.items():
 #     print(key, " => ", value)
