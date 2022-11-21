@@ -39,6 +39,8 @@ print(b)
 b.sort() # 'sort()' list arrange cquencely...
 print(b)
 
-print(a.clear())
+a.clear()
 
-print()
+print(a)
+
+b.index()
