@@ -46,7 +46,13 @@ a.clear()
 #Tuple
 
 A = ("Maynuddin", "Tuhin", "Joy")
+B = (2, 6, 4)
 
 print(len(A))
 
-print()
+print(A + B)
+
+for a in A:
+    print(a)
+
+    
