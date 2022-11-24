@@ -103,7 +103,9 @@ print("lenth of Student1:",len(students1),"lenth of Student2:",len(students2))
 # print(students1.union(students2))
 
 #10)print all the combined items of student1 and student2, with all common values of them (without making any permanent change)
-# print(students1.intersection(students2))
+students1.intersection(students2)
+print(students1)
 
 #10)print all the combined items of student1 and student2, with all uncommon values of them (without making any permanent change)
-print(students1.intersection_update(students2))
+students1.intersection_update(students2)
+print(students1)
