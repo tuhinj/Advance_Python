@@ -67,14 +67,38 @@ a = {8, 4, 3, 3, 2, 7, 5}
 b = {1, 4, 9, 20, 34}
 
 #1)check the data type of students
+print(type(students1), type(students2))
+
 #2)check the length of students
+print("lenth of Student1:",len(students1),"lenth of Student2:",len(students2))
+
 #3)add "sweety" to students
+students1.add("sweety")
+print(students1)
+
 #4)remove "risat" from students
+students1.remove("risat")
+print(students1)
+
 #5)try to safely remove "raihan" from students without facing any error
+
+
 #6)add students2 to students1
+students1.update(students2)
+print(students1)
+
 #7)check is students2 is the subset of student1
+print(students2.issubset(students1))
+
 #8)check is students1 is the superset of student2
+print(students2.issuperset(students1))
+
 #9)clear student1
+students1.clear()
+print(students1)
+
 #10)print all the combined items of student1 and student2, without any duplication (without making any permanent change)
+
+
 #10)print all the combined items of student1 and student2, with all common values of them (without making any permanent change)
 #10)print all the combined items of student1 and student2, with all uncommon values of them (without making any permanent change)
