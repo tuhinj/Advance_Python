@@ -10,14 +10,6 @@
 
 # print(addition(4, 6))
 
-
-
-
-
-
-
-
-
 # rahims_age = 27
 
 
