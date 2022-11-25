@@ -15,3 +15,11 @@ def print_name(name):
     print("Hi",input_name,name)
 
 print_name("joy")
+
+studen_list = []
+def print_studens(*name):
+    
+    studen_list.append(studen_list)
+print_studens("Joy","Tuhin","Maynuddin")
+
+print(studen_list)
