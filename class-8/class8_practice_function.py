@@ -10,3 +10,8 @@ def print_hello(neme):
 
 print_hello("joy")
 
+def print_name(name):
+    input_name = input()
+    print("Hi",input_name,name)
+
+print_name("joy")
