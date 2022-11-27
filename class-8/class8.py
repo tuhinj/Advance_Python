@@ -22,7 +22,7 @@ def increment_age(year_in_number):
 #     global rahims_age
 #     return rahims_age + year_in_number
 
-print(increment_age(4))
+# print(increment_age(4))
 
 # boyos = increment_age(4)
 
