@@ -29,3 +29,10 @@ def passing_years(yrs):
     return tuhin + yrs
 # print("Tuhin's age is:",passing_years(10))
 
+l1=[1,2,3,4,5,6,7]
+def clear_list():
+    global l1
+    l1.pop()
+    if len(l1) == 0:
+        print(l1)
+clear_list()
