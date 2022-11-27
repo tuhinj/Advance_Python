@@ -29,8 +29,15 @@ def passing_years(yrs):
     return tuhin + yrs
 # print("Tuhin's age is:",passing_years(10))
 
+'''Parameters'''
 def print_name(fast_name, last_name):
     print("Print your name:"+fast_name +" "+ last_name)
 
 print_name("Tuhin","Joy")
+
+'''Arbitarary Arguments'''
+def print_list(*name):
+    print(name)
+
+print_list("tuhin", "joy", "maynuddin")
 
