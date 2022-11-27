@@ -10,19 +10,19 @@
 
 # print(addition(4, 6))
 
-# rahims_age = 27
+rahims_age = 27
 
+
+def increment_age(year_in_number):
+    global rahims_age
+    rahims_age = rahims_age + year_in_number
+    return rahims_age
 
 # def increment_age(year_in_number):
 #     global rahims_age
-#     rahims_age = rahims_age + year_in_number
-#     return rahims_age
+#     return rahims_age + year_in_number
 
-# # def increment_age(year_in_number):
-# #     global rahims_age
-# #     return rahims_age + year_in_number
-
-# # print(increment_age(4))
+print(increment_age(4))
 
 # boyos = increment_age(4)
 
