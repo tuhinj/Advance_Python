@@ -22,4 +22,9 @@ def passing_years(years):
     joy_age += years
     # print(joy_age)
 passing_years(10)
-print(joy_age)
+print("Joy's age is:",joy_age)
+
+tuhin = 12
+def passing_years(yrs):
+    return tuhin + yrs
+print("Tuhin's age is:",passing_years(10))
