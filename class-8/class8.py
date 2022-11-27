@@ -10,13 +10,13 @@
 
 # print(addition(4, 6))
 
-rahims_age = 27
+# rahims_age = 27
 
 
-def increment_age(year_in_number):
-    global rahims_age
-    rahims_age = rahims_age + year_in_number
-    return rahims_age
+# def increment_age(year_in_number):
+#     global rahims_age
+#     rahims_age = rahims_age + year_in_number
+#     return rahims_age
 
 # def increment_age(year_in_number):
 #     global rahims_age
@@ -37,11 +37,12 @@ def increment_age(year_in_number):
 # increment_age(1)
 
 
+list_number = [23, 32, 54, 3, 6, 9]
+def print_numbers():
+    if list_number = len
+        list_number.pop()
 
-# def print_numbers(list_of_numbers, age):
-#     for number in list_of_numbers:
-#         print(number)
-
+print(list_number)
 
 # print_numbers([1, 2, 3, 4, 5])
 
