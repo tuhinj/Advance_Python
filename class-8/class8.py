@@ -37,13 +37,11 @@
 # increment_age(1)
 
 
-list_number = [23, 32, 54, 3, 6, 9]
-def print_numbers():
-    if list_number == len(list_number):
-        list_number.pop()
-        print(list_number)
 
-print(print_numbers())
+# def print_numbers(list_of_numbers, age):
+#     for number in list_of_numbers:
+#         print(number)
+
 
 # print_numbers([1, 2, 3, 4, 5])
 
