@@ -56,6 +56,7 @@ print(school_details["managing_committee"])
 
 #12)remove the last added item from the village_school (remember we've a built in function for that)
 
+
 #13)remove the founder of that school
 
 #14)set default value for founder key to "Robiul Islam"
