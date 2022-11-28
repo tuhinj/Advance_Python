@@ -44,6 +44,11 @@ print("7) DATA type:",type(village_school))
 print("9) :", len(school_details["managing_committee"]))
 
 #10)check if 'Founder of Toto Company' exist in the managing committee if found then remove that person from the managing committee
+for index, people in enumerate(school_details["managing_committee"]):
+    # print(people)
+    if (people["occupation"] == "Founder of Toto Company"):
+        school_details["managing_committee"].pop(index)
+        print(school_details["managing_committee"])
 
 
 #11)output all the members occupation of the managing committee to check "Founder of Toto Company" is not there
