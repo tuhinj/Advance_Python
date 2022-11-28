@@ -48,27 +48,34 @@ for index, people in enumerate(school_details["managing_committee"]):
     # print(people)
     if (people["occupation"] == "Founder of Toto Company"):
         school_details["managing_committee"].pop(index)
+print("10) :",school_details["managing_committee"])
 
 
 #11)output all the members occupation of the managing committee to check "Founder of Toto Company" is not there
-print(school_details["managing_committee"])
+print("11) :",school_details["managing_committee"])
 
 
 #12)remove the last added item from the village_school (remember we've a built in function for that)
-print(village_school.popitem())
+print("12) :",village_school.popitem())
 
 #13)remove the founder of that school
-print(school_details.pop("founder"))
+print("13) :",school_details.pop("founder"))
 
 #14)set default value for founder key to "Robiul Islam"
-print(school_details.setdefault("founder", "Robiul Islam"))
+print("14) :",school_details.setdefault("founder", "Robiul Islam"))
 
 #15)check for a doctor in the 'managing_committee_candidates' list and make sure he wants to be the 'Vice Chairman' of that school if so then add that person to the managing_committe of that school
+for index, public in enumerate(managing_committee_caniddates):
+    if public["occupation"] == "Doctor":
+        school_details["managing_committee"].append(public)
+print("15) :",school_details)
 
 #16)output the member of managing_committee after update
+print("16) :",len(school_details["managing_committee"]))
 
 #17)wipe out all the prperties of village_school and make it empty
-
+village_school.clear()
+print("17) :",village_school)
 
 
 students1 = {"shaon", "sufian", "sohrab", "risat", "sohrab", "shaon", "sohan", "romiz"}
@@ -78,43 +85,43 @@ a = {8, 4, 3, 3, 2, 7, 5}
 b = {1, 4, 9, 20, 34}
 
 #1)check the data type of students
-# print(type(students1), type(students2))
+# print("1):",type(students1), type(students2))
 
 #2)check the length of students
-# print("lenth of Student1:",len(students1),"lenth of Student2:",len(students2))
+# print("2) lenth of Student1:",len(students1),"lenth of Student2:",len(students2))
 
 #3)add "sweety" to students
 # students1.add("sweety")
-# print(students1)
+# print("3) :",students1)
 
 #4)remove "risat" from students
 # students1.remove("risat")
-# print(students1)
+# print("4) :",students1)
 
 #5)try to safely remove "raihan" from students without facing any error
 
 
 #6)add students2 to students1
 # students1.update(students2)
-# print(students1)
+# print("6) :",students1)
 
 #7)check is students2 is the subset of student1
-# print(students2.issubset(students1))
+# print("7) :",students2.issubset(students1))
 
 #8)check is students1 is the superset of student2
-# print(students2.issuperset(students1))
+# print("8) :",students2.issuperset(students1))
 
 #9)clear student1
 # students1.clear()
-# print(students1)
+# print("9) :",students1)
 
 #10)print all the combined items of student1 and student2, without any duplication (without making any permanent change)
-# print(students1.union(students2))
+# print("10) :",students1.union(students2))
 
-#10)print all the combined items of student1 and student2, with all common values of them (without making any permanent change)
+#11)print all the combined items of student1 and student2, with all common values of them (without making any permanent change)
 students = students1.intersection(students2)
-# print(students
+# print("11) :",students)
 
-#10)print all the combined items of student1 and student2, with all uncommon values of them (without making any permanent change)
+#12)print all the combined items of student1 and student2, with all uncommon values of them (without making any permanent change)
 students1.symmetric_difference(students2)
-# print(students1)
+# print("12) :",students1)
