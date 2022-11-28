@@ -29,7 +29,7 @@ print(len(village_school))
 #6)add number_of_classrooms key with value 25 in village_school dictionary
 
 village_school.setdefault("number_of_classrooms", 25)
-print(village_school)
+print("Number Of Class Room:",village_school)
 
 #7)check the data type of village_school
 print(type(village_school))
