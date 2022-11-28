@@ -53,4 +53,6 @@ full_name("Tuhin",)
 def new_function(foods):
     for food in foods:
         print(food)
-new_function()
+food_list = ["Apple","Brade","Tea","Coffe","Rice"]
+new_function(food_list)
+
