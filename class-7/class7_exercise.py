@@ -55,11 +55,13 @@ print(school_details["managing_committee"])
 
 
 #12)remove the last added item from the village_school (remember we've a built in function for that)
-
+print(village_school.popitem())
 
 #13)remove the founder of that school
+print(school_details.pop("founder"))
 
 #14)set default value for founder key to "Robiul Islam"
+print(school_details.setdefault("founder", "Robiul Islam"))
 
 #15)check for a doctor in the 'managing_committee_candidates' list and make sure he wants to be the 'Vice Chairman' of that school if so then add that person to the managing_committe of that school
 
