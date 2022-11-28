@@ -26,13 +26,14 @@ class Dog(Animal):
         self.is_active = is_active
 
 class cat(Animal):
-    pass
     # def __init__(self,name, age, color):
     #     self.name = name
     #     self.age = age
     #     self.color = color
     def eat_fish(self):
         return f"{self.name} Eat Fish!"
+    def __str__(self):
+        return f"{self.name} is {self.age} years old, it's colour {self.color}"
 
 class cow(Animal):
     pass
@@ -46,3 +47,5 @@ print(animal.name, animal.age, animal.color, animal.is_active,"and", animal.walk
 
 animal_cat = cat("Pussi", 3.5, "White")
 print(animal_cat.name, animal_cat.age, animal_cat.color, "and", animal_cat.walk())
+
+print(animal_cat)
