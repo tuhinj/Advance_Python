@@ -45,6 +45,7 @@ print("9) :", len(school_details["managing_committee"]))
 
 #10)check if 'Founder of Toto Company' exist in the managing committee if found then remove that person from the managing committee
 
+
 #11)output all the members occupation of the managing committee to check "Founder of Toto Company" is not there
 
 

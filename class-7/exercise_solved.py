@@ -50,7 +50,6 @@ for index, people in enumerate(village_school["managing_committee"]):
         village_school["managing_committee"].pop(index)
 
        
-    
 
 #11)output all the members occupation of the managing committee to check "Founder of Toto Company" is not there
 for people in village_school["managing_committee"]:
