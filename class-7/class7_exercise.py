@@ -34,10 +34,14 @@ print("6) Number of Classroom:",village_school)
 print("7) DATA type:",type(village_school))
 
 #8)loop through all the values of village_school and check if any list type data found there if found print the key name
-for item in village_school.items():
-    print(item)
+# for item in village_school.items():
+#     print(item)
+#     if(type(item[1]) == type([])):
+#         print(item[0])
+
 
 #9)output how many members are there in the managing committee
+print("9) :", len(school_details["managing_committee"]))
 
 #10)check if 'Founder of Toto Company' exist in the managing committee if found then remove that person from the managing committee
 
