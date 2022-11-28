@@ -42,3 +42,9 @@ def print_list(*name):
 
 print_list("tuhin", "joy", "maynuddin")
 
+def full_name(firstn, lastn = "Joy"):
+    print(firstn, lastn)
+
+full_name("Maynuddin","Tuhin")
+full_name("Tuhin",)
+
