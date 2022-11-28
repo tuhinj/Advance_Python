@@ -48,10 +48,10 @@ for index, people in enumerate(school_details["managing_committee"]):
     # print(people)
     if (people["occupation"] == "Founder of Toto Company"):
         school_details["managing_committee"].pop(index)
-        print(school_details["managing_committee"])
 
 
 #11)output all the members occupation of the managing committee to check "Founder of Toto Company" is not there
+print(school_details["managing_committee"])
 
 
 #12)remove the last added item from the village_school (remember we've a built in function for that)
