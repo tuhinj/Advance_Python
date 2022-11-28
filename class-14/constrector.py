@@ -18,11 +18,12 @@ class Dog(Animal):
     #     self.age = age
     #     self.color = color
     def __init__(self, name, age, color, is_active):
-        self.name = name
-        self.age = age
-        self.color = color
+    #     self.name = name
+    #     self.age = age
+    #     self.color = color
+    #     self.is_active = is_active
+        super().__init__(name, age, color)
         self.is_active = is_active
-
 
 class cat(Animal):
     pass
