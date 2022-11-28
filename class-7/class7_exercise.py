@@ -35,9 +35,7 @@ print("7) DATA type:",type(village_school))
 
 #8)loop through all the values of village_school and check if any list type data found there if found print the key name
 for item in village_school.items():
-    if(type(item[1]) == type([])):
-        print("8) :",item)
-        print("8) :",item[0])
+    print(item)
 
 #9)output how many members are there in the managing committee
 
