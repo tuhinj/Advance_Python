@@ -99,7 +99,12 @@ b = {1, 4, 9, 20, 34}
 # print("4) :",students1)
 
 #5)try to safely remove "raihan" from students without facing any error
-
+if "raihan" in students1:
+    students1.remove("raihan")
+try:
+    students1.remove("raihan")
+except:
+    print("no raihan in students")
 
 #6)add students2 to students1
 # students1.update(students2)
