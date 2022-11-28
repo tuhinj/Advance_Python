@@ -36,11 +36,10 @@ def print_name(fast_name, last_name):
 print_name("Tuhin","Joy")
 
 '''Arbitarary Arguments'''
+l1 = []
 def print_list(*name):
-    print(name)
+    print("It's Tuple:",name)
+    print("It's List:",list(name))
 
 print_list("tuhin", "joy", "maynuddin")
 
-
-
-lsfjdljfl
