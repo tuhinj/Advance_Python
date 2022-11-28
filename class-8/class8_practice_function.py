@@ -56,3 +56,12 @@ def new_function(foods):
 food_list = ["Apple","Brade","Tea","Coffe","Rice"]
 new_function(food_list)
 
+'''Return Values'''
+def new_input(age):
+    return 23 + age
+print(new_input(10))
+
+'''pass function'''
+def value(n):
+    pass
+print(value(34))
