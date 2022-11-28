@@ -11,7 +11,7 @@ managing_committee_caniddates = [{"name": "Sultan Ahmed", "age": 43, "occupation
 
 #2)try to access "number_of_rooms" key of that school without getting any error
 village_school["number_of_rooms"] = 8
-# print("Number of room:",village_school["number_of_rooms"])
+print("Number of room:",village_school["number_of_rooms"])
 
 #3)change that schools establishment year and make it 1962
 village_school["name"] = "Z A Bhutto High School"
