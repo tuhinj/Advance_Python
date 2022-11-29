@@ -28,5 +28,21 @@ print_keywords(name="Maynuddin Tuhin Joy", age= 23, cls = "BSC")
 def dic_args(**key_value):
     print(key_value)
 
-print(Name= "Maynuddin Tuhin Joy", age = 23, hight = 5.4)
+dic_args(Name = "Maynuddin Tuhin Joy", age = 23, hight = 5.4)
+
+'''Default Parameter Value'''
+def default_value_set(fname,lname = "Joy"):
+    print("My Name is:", fname,lname)
+default_value_set("Maynuddin","Tuhin")
+default_value_set("Tuhin")
+
+'''Passing a List as an Argument'''
+joy = {"Maynuddin", "Tuhin", "Joy", "Pronoy", "Shanto"}
+
+def  list_passing(names):
+    print(names)
+    for name in names:
+        print(name)
+
+list_passing(joy)
 
