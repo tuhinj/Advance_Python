@@ -46,3 +46,20 @@ def  list_passing(names):
 
 list_passing(joy)
 
+'''Return Values'''
+def return_value(year):
+    if year % 4 == 0 or (year % 400 and year % 100 != 0):
+        print("leap year")
+    else:
+        print("not leap year")
+
+return_value(1197)
+
+def num_multiapply(num):
+    return 3 + num
+print(num_multiapply(34))
+
+'''The pass Statement'''
+def pass_function(num):
+    pass
+pass_function(32)
