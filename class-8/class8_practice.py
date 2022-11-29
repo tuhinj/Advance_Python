@@ -62,4 +62,14 @@ print(num_multiapply(34))
 '''The pass Statement'''
 def pass_function(num):
     pass
+    # print("Hello World",num)
+    
 pass_function(32)
+
+'''Recursion'''
+list1 = [1, 2, 3, 4, 5]
+def print_list (num):
+    if num == len(num):
+        num.pop()
+    return num
+print_list(list1)
