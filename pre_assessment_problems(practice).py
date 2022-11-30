@@ -9,9 +9,19 @@ palindorme("eye")
     
 
 # 2) 1 kilometer is equal to 0.621371 mile. Now create function that can convert kilometers to mile
+def convert_to_miles(kilometers):
+
+    if (type(kilometers) not in [float, int]):
+        raise TypeError("Please enter kilometers as a number")
+
+    return kilometers * 0.621371
+
+print(convert_to_miles(5))
+
 
 # 3) Write a function that can remove punctuation marks from a string
     # punctuations = "!()-[]{};:'"\,<>./?@#$%^&*_~"
+
 
 # 4) The Fibonacci sequence is a sequence where the next term is the sum of the previous two terms. The first two terms of the Fibonacci sequence are 0 followed by 1. Now write a program to print fibonacci series up to a certain number
 
