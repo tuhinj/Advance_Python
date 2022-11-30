@@ -5,7 +5,7 @@ def palindorme(word):
     for chr in word:
         reversed_word = chr + reversed_word
     return word == reversed_word
-palindorme("eye")
+palindorme("eye") 
     
 
 # 2) 1 kilometer is equal to 0.621371 mile. Now create function that can convert kilometers to mile
