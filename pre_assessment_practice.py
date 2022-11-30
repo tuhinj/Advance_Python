@@ -1,6 +1,8 @@
 #1) If a word remains the same after reversing it then it's a palindrome. Now define a function to detect if a word is palindrome or not
+def palindrome(word):
+    print(word == word[::-1])
 
-
+palindrome("eye")
 
 # 2) 1 kilometer is equal to 0.621371 mile. Now create function that can convert kilometers to mile
 
@@ -63,10 +65,10 @@ check_leap_year(2009)
 
 
 # shortcut way
-def check_leapyear(year):
-    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-        print(f"{year} is a leap year")
-    else:
-        print(f"{year} is not a leap year")
+# def check_leapyear(year):
+#     if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+#         print(f"{year} is a leap year")
+#     else:
+#         print(f"{year} is not a leap year")
 
-check_leap_year(2009)
+# check_leap_year(2009)
