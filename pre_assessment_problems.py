@@ -49,7 +49,7 @@ def fibonacci_printer(end_number):
     count = 0
     while count < end_number:
         a, b = b, a + b
-        print(b)
+        # print(b)
         count += 1
 
 fibonacci_printer(10)
