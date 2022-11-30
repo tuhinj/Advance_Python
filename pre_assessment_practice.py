@@ -14,12 +14,26 @@ print(palindrome("madam"))
 
 # 2) 1 kilometer is equal to 0.621371 mile. Now create function that can convert kilometers to mile
 
-
+def input_mile(km):
+    if (type(km) not in [int,float]):
+        raise TypeError("Please Entre number not String or something")
+    return km * 0.621371
+print(input_mile(12))
 
 
 
 # 3) Write a function that can remove punctuation marks from a string
     # punctuations = "!()-[]{};:'"\,<>./?@#$%^&*_~"
+
+def remove_punctuation(word):
+    punctuations = "!()-[]{};:'\,<>./?@#$%^&*_~"
+    renew = ""
+
+    for chr in word:
+        if chr not in punctuations:
+            renew += chr
+    return renew
+print(remove_punctuation("J.]OY"))
 
 
 
