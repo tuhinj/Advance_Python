@@ -23,6 +23,15 @@ def print_keywords(name, age, cls):
 
 print_keywords(name="Maynuddin Tuhin Joy", age= 23, cls = "BSC")
 
+def numbers(*nums):
+    sum = 0
+    print(nums)
+    for num in nums:
+        sum = sum + num
+    print(sum)
+numbers(12, 30, 45)
+numbers(2, 3, 7, 78)
+
 '''Arbitrary Keyword Arguments, **kwargs'''
 def dic_args(**key_value):
     print(key_value)
