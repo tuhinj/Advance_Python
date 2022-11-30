@@ -84,3 +84,5 @@ def tri_recursion(k):
 
 print("\n\nRecursion Example Results")
 tri_recursion(15)
+
+# Lambda Function...
