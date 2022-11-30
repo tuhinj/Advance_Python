@@ -59,6 +59,16 @@ def num_multiapply(num):
     return 3 + num
 print(num_multiapply(34))
 
+def large_value(a,b,c):
+    if a > b and a > c:
+        return a
+    elif b > a and b > c:
+        return b
+    else:
+        return c
+result = large_value(18, 57, 12)
+print(result)
+
 '''The pass Statement'''
 def pass_function(num):
     pass
@@ -82,7 +92,8 @@ def tri_recursion(k):
     result = 0
   return result
 
-print("\n\nRecursion Example Results")
+print("\nRecursion Example Results")
 tri_recursion(15)
 
 # Lambda Function...
+
