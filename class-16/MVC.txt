@@ -1,0 +1,12 @@
+MVC Pattern in Django Structure
+For every website on the Internet, there are 3 main components or code partitions; Input Logic, Business Logic, and UI Logic.
+
+These partitions of code have specific tasks to achieve, the input logic is the dataset and how the data gets to organize in the database. It just takes that input and sends it to the database in the desired format. The Business logic is the main controller which handles the output from the server in the HTML or desired format. The UI Logic as the name suggests are the HTML, CSS and JavaScript pages.
+
+When the traditional approach was used for programming all this code was written in a single file, i.e., every piece of code increases the webpage size, which is downloaded and rendered by the browser. This was not a big problem back in the time, the webpages were largely static and websites and didn’t contain much multimedia and large coding. Also, this architecture poses difficulty for developers while testing and maintaining the project as everything is inside one file.
+
+Now, time is changing and the websites are getting bigger and bigger while providing applications like cloud computing and online artificial intelligence training, online development environments and what not, these projects are all implemented using MVC architecture.
+
+So, what is MVC? It is an acronym for Model View Controller. Don’t worry we will learn every aspect of the MVC pattern and also relate it to Django.
+
+MVC pattern is a Product Development Architecture. It solves the traditional approach’s drawback of code in one file, i.e., that MVC architecture has different files for different aspects of our web application/ website.
