@@ -6,7 +6,7 @@ def is_palindrome(word):
     for char in word:
         # print(char)
         reversed_word = char + reversed_word
-        print(reversed_word)
+        # print(reversed_word)
     return word == reversed_word
 
 print(is_palindrome("hello"))
