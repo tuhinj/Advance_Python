@@ -1,10 +1,19 @@
 #1) If a word remains the same after reversing it then it's a palindrome. Now define a function to detect if a word is palindrome or not
-def palindrome(word):
-    print(word == word[::-1])
 
-palindrome("eye")
+def palindrome(word):
+    revarced_word = ""
+    for chr in word:
+        revarced_word = chr + revarced_word
+    return word == revarced_word
+print(palindrome("madam"))
+
+"""Easy Way"""
+# def palindrome(word):
+#     print(word == word[::-1])
+# palindrome("eye")
 
 # 2) 1 kilometer is equal to 0.621371 mile. Now create function that can convert kilometers to mile
+
 
 
 
@@ -45,23 +54,6 @@ palindrome("eye")
 
 # 10) Now write a function to check if a year is leap year or not
 
-def check_leap_year(year):
-    # century year divided by 400 is leap year
-    if year % 400 == 0:
-        print(f"{year} is a leap year")
-
-    # not divided by 100 means not a century year
-    # year divided by 4 is a leap year
-    elif (year % 4 == 0) and (year % 100 != 0):
-        print(f"{year} is a leap year")
-
-    # if not divided by both 400 (century year) and 4 (not century year)
-    # year is not leap year
-    else:
-        print(f"{year} is not a leap year")
-
-
-check_leap_year(2009)
 
 
 # shortcut way
