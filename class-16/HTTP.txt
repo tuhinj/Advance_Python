@@ -1,0 +1,3 @@
+The http or Hyper Text Transfer Protocol works on client server model. Usually the web browser is the client and the computer hosting the website is the server. IN python we use the requests module for creating the http requests. It is a very powerful module which can handle many aspects of http communication beyond the simple request and response data. It can handle authentication, compression/decompression, chunked requests etc.
+
+An HTTP client sends an HTTP request to a server in the form of a request message which includes following format:
