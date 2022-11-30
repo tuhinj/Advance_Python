@@ -33,7 +33,7 @@ def remove_punctuation(word):
         if chr not in punctuations:
             renew += chr
     return renew
-print(remove_punctuation("J.]OY"))
+print(remove_punctuation("J.]O/=Y"))
 
 
 
