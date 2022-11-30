@@ -1,6 +1,5 @@
 # Function
 '''Creating a Function & Calling a Function'''
-
 def print_function():
     print("Hello World!")
 print_function()
