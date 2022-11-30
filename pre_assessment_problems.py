@@ -4,11 +4,12 @@ def is_palindrome(word):
     reversed_word = ""
 
     for char in word:
+        # print(char)
         reversed_word = char + reversed_word
-
+        print(reversed_word)
     return word == reversed_word
 
-print(is_palindrome("eye"))
+print(is_palindrome("hello"))
 
 
 # 2) 1 kilometer is equal to 0.621371 mile. Now create function that can convert kilometers to mile
