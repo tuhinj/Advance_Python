@@ -15,10 +15,10 @@ print(palindrome("Roshe"))
 
 # 2) 1 kilometer is equal to 0.621371 mile. Now create function that can convert kilometers to mile
 
-def input_mile(km):
-    if (type(km) not in [int,float]):
+def input_mile(mile):
+    if (type(mile) not in [int,float]):
         raise TypeError("Please Entre number not String or something")
-    return km * 0.621371
+    return mile * 0.621371
 print(input_mile(12))
 
 
@@ -70,17 +70,51 @@ sort_sentence("b c a r t w b")
 
 # 6) Write a function to find even or odd
 
+def check_EvenOdd(num):
+    if num % 2 == 0:
+        print(f"\"{num}\" it's an Even Number")
+    else:
+        print(f"\"{num}\" it's an Odd Number")
+check_EvenOdd(100)
 
 
 # 7) Write a program to check if a number is positive, negative or zero
 
+def check_PosNeg(num):
+    if num > 0:
+        print(f"Number is Positive")
+    elif num < 0:
+        print(f"Number is Negtive")
+    else:
+        print(f"Number is Zero")
+check_PosNeg(0)
 
 # 8) If any natural number is greater than 1 and having no positive divisors other than 1 and the number itself then it's called a prime number. For example: 3, 7, 11 etc are prime numbers. Now write a function that can check if a number is prime number or not
+
+def check_prime_number(num):
+    if num > 1:
+        for a in range(2, num):
+            if num % a == 0:
+                print("It's not a Prime Number")
+                break
+        else:
+            print("It's a Prime Number")
+    else:
+        print("It's not a Prime Number")
+check_prime_number(2)
 
 
 
 # 9) Write a function to find the largest number among three given input numbers
 
+def check_largest_number(a, b, c):
+    if a > b and a > c:
+        print(f"{a} is Largest then Other")
+    elif b > a and b > c:
+        print(f"{b} is Largest then Other")
+    else:
+        print(f"{c} is Largest then Other")
+check_largest_number(12, 14, 16)
 
 
 # A leap year is exactly divisible by 4 except for century years (years ending with 00). The century year is a leap year only if it is perfectly divisible by 400. For example,
@@ -88,10 +122,16 @@ sort_sentence("b c a r t w b")
     # 1900 is a not leap year
     # 2012 is a leap year
     # 2000 is a leap year
-
 # 10) Now write a function to check if a year is leap year or not
 
-
+def check_leap_year(year):
+    if year % 400 == 0:
+        print(f"{year} is leap year")
+    elif year % 4 == 0 and year % 100 != 0:
+        print(f"{year} is leap year")
+    else:
+        print(f"{year} is not leap year")
+check_leap_year(2017)
 
 # shortcut way
 # def check_leapyear(year):

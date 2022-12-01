@@ -107,7 +107,7 @@ def prime_checker(number):
     else:
         print(f"{number} is not a prime number")
 
-prime_checker(10)
+prime_checker(2)
 
 
 # 9) Write a function to find the largest number among three given input numbers
