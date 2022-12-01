@@ -41,7 +41,9 @@ print(remove_punctuation("J.]O/=Y"))
 # 4) The Fibonacci sequence is a sequence where the next term is the sum of the previous two terms. The first two terms of the Fibonacci sequence are 0 followed by 1. Now write a program to print fibonacci series up to a certain number
 
 def fibonacci_series(series_renge):
-    a, b = 0, 1
+    # a, b = 0, 1
+    a = 0
+    b = 1
     count_exicute = 0
     while count_exicute < series_renge:
         a, b = b, a + b
@@ -53,7 +55,18 @@ fibonacci_series(10)
 
 # 5) Write a function that can take a sentence and print each word of that sentece in alphabetic order
 
+def sort_sentence(words):
+    seprate = words.split()
+    seprate.sort()
+    for word in seprate:
+        print(word)
+sort_sentence("b c a r t w b")
 
+# '''Easy'''
+# a = input("Write a sentence: ").split(" ")
+# a.sort()
+# for word in a:
+#     print(word)
 
 # 6) Write a function to find even or odd
 
