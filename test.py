@@ -26,10 +26,6 @@
 # ID: 800966229
 # ITCS 6114
 
-import sys
-from sys import argv
-from struct import *
-
 # taking the input file and the number of bits from command line
 # defining the maximum table size
 # opening the input file
