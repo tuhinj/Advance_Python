@@ -4,8 +4,9 @@ def palindrome(word):
     revarced_word = ""
     for chr in word:
         revarced_word = chr + revarced_word
+        # print(revarced_word)
     return word == revarced_word
-print(palindrome("madam"))
+print(palindrome("Roshe"))
 
 """Easy Way"""
 # def palindrome(word):
@@ -26,7 +27,7 @@ print(input_mile(12))
     # punctuations = "!()-[]{};:'"\,<>./?@#$%^&*_~"
 
 def remove_punctuation(word):
-    punctuations = "!()-[]{};:'\,<>./?@#$%^&*_~"
+    punctuations = "!()-[]{};:'\,<>.=/?@#$%^&*_~"
     renew = ""
 
     for chr in word:
@@ -39,6 +40,15 @@ print(remove_punctuation("J.]O/=Y"))
 
 # 4) The Fibonacci sequence is a sequence where the next term is the sum of the previous two terms. The first two terms of the Fibonacci sequence are 0 followed by 1. Now write a program to print fibonacci series up to a certain number
 
+def fibonacci_series(series_renge):
+    a, b = 0, 1
+    count_exicute = 0
+    while count_exicute < series_renge:
+        a, b = b, a + b
+        print(b)
+        count_exicute+=1
+
+fibonacci_series(10)
 
 
 # 5) Write a function that can take a sentence and print each word of that sentece in alphabetic order
