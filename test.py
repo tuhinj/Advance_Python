@@ -146,24 +146,6 @@ h = ["hello", "Abdul", "zohir", "akram"]
 
 # print(i)
 # print(h)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-(result)
-
 try:
     lis = [23, 29, 0, 5]
     result = lis[1]/lis[2]
