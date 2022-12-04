@@ -157,3 +157,9 @@ finally:
     print("Done!")
 
 print("Hello world!")
+
+try:
+    a = 'tuhinjoy'
+    a[8]
+except:
+    print("no")
