@@ -134,10 +134,10 @@ def check_leap_year(year):
 check_leap_year(2017)
 
 # shortcut way
-# def check_leapyear(year):
-#     if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-#         print(f"{year} is a leap year")
-#     else:
-#         print(f"{year} is not a leap year")
+def check_leapyear(year):
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        print(f"{year} is a leap year")
+    else:
+        print(f"{year} is not a leap year")
 
-# check_leap_year(2009)
+check_leap_year(158455)
