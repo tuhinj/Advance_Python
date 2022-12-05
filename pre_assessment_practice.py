@@ -131,7 +131,7 @@ def check_leap_year(year):
         print(f"{year} is leap year")
     else:
         print(f"{year} is not leap year")
-check_leap_year(2017)
+check_leap_year(1999)
 
 # shortcut way
 def check_leapyear(year):
@@ -140,4 +140,4 @@ def check_leapyear(year):
     else:
         print(f"{year} is not a leap year")
 
-check_leap_year(158455)
+check_leap_year(2000)
