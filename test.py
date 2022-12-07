@@ -131,21 +131,22 @@
 # print("6) :",students1)
 
 h = ["hello", "Abdul", "zohir", "akram"]
-# h.sort(reverse=True)
-# h.sort()
-# h.reverse()
-# print(h)
+h.sort(reverse=True)
+h.sort()
+h.reverse()
+print(h)
 
-# print(len({"a": 3, "b": 5}))
-# print(len("hello"))
-# i = h #h = ["hello", "Abdul", "zohir", "akram"]
+print(len({"a": 3, "b": 5}))
+print(len("hello"))
+i = h 
+h = ["hello", "Abdul", "zohir","Joy", "akram"]
 
-# i = h.copy()
+i = h.copy()
 
-# i[1] = "Rahim"
+i[1] = "Rahim"
 
-# print(i)
-# print(h)
+print(i)
+print(h)
 try:
     lis = [23, 29, 0, 5]
     result = lis[1]/lis[2]
