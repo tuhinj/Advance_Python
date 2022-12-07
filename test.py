@@ -169,4 +169,7 @@ except:
     print(type(a))
     print(a[2])
     print(a[:3])
+    b = []
+    b["name", "age", "roll"] = "Tuhin", 12, 12011146
+    print(b)
     
