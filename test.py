@@ -167,3 +167,6 @@ except:
     a = (2, 3, 7, 3 , 7, 9)
     print(len(a))
     print(type(a))
+    print(a[2])
+    print(a[:3])
+    
