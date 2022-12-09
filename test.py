@@ -70,34 +70,38 @@
 # output_file.close()
 # file.close()
 
-name = "Maynuddin tuhin joy"
+# name = "Maynuddin tuhin joy"
 
-print(name.upper())
-print(name.lower())
-print(name.capitalize())
-print(name.title())
-print(name.split(" "))
-print(name.strip())
-print(name[:9])
-print(name[10:15])
-print(name[10:])
-print(name[-3:])
+# print(name.upper())
+# print(name.lower())
+# print(name.capitalize())
+# print(name.title())
+# print(name.split(" "))
+# print(name.strip())
+# print(name[:9])
+# print(name[10:15])
+# print(name[10:])
+# print(name[-3:])
 
-names = ['Tuhin', 'Joy', 'Maynuddin', 'Pronoy']
-name2 = [1, 2, 6, 5, 3, 4]
+# names = ['Tuhin', 'Joy', 'Maynuddin', 'Pronoy']
+# name2 = [1, 2, 6, 5, 3, 4]
 
-names.extend(name2)
-print(names)
+# names.extend(name2)
+# print(names)
 
-names.append("Maliha")
-print(names)
+# names.append("Maliha")
+# print(names)
 
-names.pop()
-print(names)
+# names.pop()
+# print(names)
 
-names.insert(3, "Zihad")
-print(names)
+# names.insert(3, "Zihad")
+# print(names)
 
-names.remove("Pronoy")
-print(names)
+# names.remove("Pronoy")
+# print(names)
 
+def print_name(name):
+    nam = input("Eneter your name: ",name)
+    print(nam)
+print_name("Maynuddin Tuhin Joy")
