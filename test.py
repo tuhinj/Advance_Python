@@ -111,3 +111,11 @@ def print_dic(**valkey):
     print("The dic:",valkey)
 
 print_dic(name="Tuhin",age="")
+
+lis = []
+def print_list(*value):
+    global lis
+    lis.append(value)
+    print(lis)
+
+print_list("Joy", 5.0, 120, 5j, True)
