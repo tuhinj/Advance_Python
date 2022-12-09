@@ -102,7 +102,7 @@
 # print(names)
 
 def print_name(name):
-    print("Eneter your name: ",name)
+    print(f"Is your name {name}")
     
 print_name("Maynuddin")
 
@@ -110,4 +110,4 @@ print_name("Maynuddin")
 def print_dic(**valkey):
     print("The dic:",valkey)
 
-print_dic("name":"Tuhin","age":"")
+print_dic(name="Tuhin",age="")
