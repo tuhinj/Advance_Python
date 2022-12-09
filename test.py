@@ -130,46 +130,50 @@
 # students1.update(students2)
 # print("6) :",students1)
 
-h = ["hello", "Abdul", "zohir", "akram"]
-h.sort(reverse=True)
-h.sort()
-h.reverse()
-print(h)
+# h = ["hello", "Abdul", "zohir", "akram"]
+# h.sort(reverse=True)
+# h.sort()
+# h.reverse()
+# print(h)
 
-print(len({"a": 3, "b": 5}))
-print(len("hello"))
-i = h 
-h = ["hello", "Abdul", "zohir","Joy", "akram"]
+# print(len({"a": 3, "b": 5}))
+# print(len("hello"))
+# i = h 
+# h = ["hello", "Abdul", "zohir","Joy", "akram"]
 
-i = h.copy()
+# i = h.copy()
 
-i[1] = "Rahim"
+# i[1] = "Rahim"
 
-print(i)
-print(h)
-try:
-    lis = [23, 29, 0, 5]
-    result = lis[1]/lis[2]
+# print(i)
+# print(h)
+# try:
+#     lis = [23, 29, 0, 5]
+#     result = lis[1]/lis[2]
 
-    print(result)
-except ZeroDivisionError:
-    print("It's not possible")
-finally:
-    print("Done!")
+#     print(result)
+# except ZeroDivisionError:
+#     print("It's not possible")
+# finally:
+#     print("Done!")
 
-print("Hello world!")
+# print("Hello world!")
 
-try:
-    a = 'tuhinjoy'
-    a[8]
-except:
-    print("no")
-    a = (2, 3, 7, 3 , 7, 9)
-    print(len(a))
-    print(type(a))
-    print(a[2])
-    print(a[:3])
-    b = []
-    b["name"] = "Tuhin"
-    print(b)
+# try:
+#     a = 'tuhinjoy'
+#     a[8]
+# except:
+#     print("no")
+#     a = (2, 3, 7, 3 , 7, 9)
+#     print(len(a))
+#     print(type(a))
+#     print(a[2])
+#     print(a[:3])
+#     b = []
+#     b["name"] = "Tuhin"
+#     print(b)
     
+def print_value(*nem):
+    print("The tuple:",nem)
+
+print_value("joy", "Rahat", "pronoy", "Zihad")
