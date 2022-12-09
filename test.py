@@ -102,6 +102,12 @@
 # print(names)
 
 def print_name(name):
-    nam = input("Eneter your name: ",name)
-    print(nam)
-print_name("Maynuddin Tuhin Joy")
+    print("Eneter your name: ",name)
+    
+print_name("Maynuddin")
+
+
+def print_dic(**valkey):
+    print("The dic:",valkey)
+
+print_dic("name":"Tuhin","age":"")
