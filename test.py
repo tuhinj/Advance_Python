@@ -188,19 +188,22 @@ class Animal:
         self.name = name
         self.age = age
         self.color = color
+
 class Dog(Animal):
-    def __init__(self, name, age, color):
-        self.name = name
-        self.age = age
-        self.color = color
+    # def __init__(self, name, age, color):
+        # self.name = name
+        # self.age = age
+        # self.color = color
+        pass
+
 class Cat(Animal):
-    def __init__(self, name, age, color):
+    # def __init__(self, name, age, color):
         # self.name = name
         # self.age = age
         # self.color = color
         pass
 
 
-animal = Animal("Tommy", 2, "Black")
+animal = Dog("Tommy", 2, "Black")
 print(animal.name, animal.age, animal.color)
 
