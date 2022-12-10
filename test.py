@@ -177,3 +177,12 @@ def print_value(*nem):
     print("The tuple:",nem)
 
 print_value("joy", "Rahat", "pronoy", "Zihad")
+
+def print_dis(**keyval):
+    print("Print dis:", keyval)
+
+print_dis(name = "Maynuddin Tuhin Joy", age = 23, sex = "Male")
+
+
+
+
