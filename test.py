@@ -183,6 +183,23 @@ def print_dis(**keyval):
 
 print_dis(name = "Maynuddin Tuhin Joy", age = 23, sex = "Male")
 
+class Animal:
+    def __init__(self, name, age, color):
+        self.name = name
+        self.age = age
+        self.color = color
+class Dog:
+    def __init__(self, name, age, color):
+        self.name = name
+        self.age = age
+        self.color = color
+class Cat:
+    def __init__(self, name, age, color):
+        self.name = name
+        self.age = age
+        self.color = color
+        
 
-
+animal = Animal("Tommy", 2, "Black")
+print(animal.name, animal.age, animal.color)
 
