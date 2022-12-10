@@ -207,3 +207,5 @@ class Cat(Animal):
 animal = Dog("Tommy", 2, "Black")
 print(animal.name, animal.age, animal.color)
 
+cat = Cat("Tom", 1, "White")
+print(cat.name, cat.age, cat.color)
