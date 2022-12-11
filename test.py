@@ -209,3 +209,7 @@ print(animal.name, animal.age, animal.color)
 
 cat = Cat("Tom", 1, "White")
 print(cat.name, cat.age, cat.color)
+
+dog = Dog("Tiger", 3, "Brown")
+print(dog.name, dog.age, dog.color)
+
