@@ -202,7 +202,8 @@ class Cat(Animal):
         # self.age = age
         # self.color = color
         pass
-
+class Cow(Animal):
+    pass
 
 animal = Dog("Tommy", 2, "Black")
 print(animal.name, animal.age, animal.color)
