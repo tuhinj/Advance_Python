@@ -199,12 +199,12 @@ class Dog(Animal):
 class Cat(Animal):
     # def __init__(self, name, age, color):
     def __init__(self, sound):
-        self.sound = sound
+        # self.sound = sound
         print(f'The cat sound {sound}"')
         # self.name = name
         # self.age = age
         # self.color = color
-        pass
+        # pass
 class Cow(Animal):
     pass
 
