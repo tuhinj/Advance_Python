@@ -214,3 +214,5 @@ print(cat.name, cat.age, cat.color)
 dog = Dog("Tiger", 3, "Brown")
 print(dog.name, dog.age, dog.color)
 
+cow = Cow("Suili", 1.2, "Red")
+print(cow.name, cow.color, cow.age)
