@@ -197,7 +197,7 @@ class Dog(Animal):
         pass
 
 class Cat(Animal):
-        pass
+    pass
 class Cow(Animal):
     pass
 
