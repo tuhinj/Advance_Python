@@ -200,7 +200,7 @@ class Cat(Animal):
     # def __init__(self, name, age, color):
     def __init__(self, sound):
         self.sound = sound
-        print(f'The cat sound Mew')
+        print(f'The cat sound {sound}"')
         # self.name = name
         # self.age = age
         # self.color = color
@@ -211,8 +211,8 @@ class Cow(Animal):
 animal = Dog("Tommy", 2, "Black")
 print(animal.name, animal.age, animal.color)
 
-cat = Cat("Tom", 1, "White")
-print(cat.name, cat.age, cat.color)
+cat = Cat("Tom", 1, "White", "Mew!")
+print(cat.name, cat.age, cat.color, cat.sound)
 
 dog = Dog("Tiger", 3, "Brown")
 print(dog.name, dog.age, dog.color)
