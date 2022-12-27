@@ -7,6 +7,7 @@ def check_leapyear(year):
 check_leapyear(2000)
 check_leapyear(2010)
 
+
 # Palimdrome...
 def pal(w):
     rev_w = ""
