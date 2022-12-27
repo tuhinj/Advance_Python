@@ -50,4 +50,5 @@ print(animal_cat.name, animal_cat.age, animal_cat.color, "and", animal_cat.walk(
 
 print(animal_cat)
 
-animal_cow = cow("Lalu",)
+animal_cow = cow("Lalu", 4, "red")
+print("Animal Name:",animal_cow.name,"\nAnimal Color:", animal_cow.color, "\nAnimal Age:", animal_cow.age)
