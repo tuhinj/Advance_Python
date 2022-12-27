@@ -5,6 +5,7 @@ def check_leapyear(year):
     else:
         print(f"{year} is not a leap year")
 check_leapyear(2000)
+check_leapyear(2010)
 
 # Palimdrome...
 def pal(w):
