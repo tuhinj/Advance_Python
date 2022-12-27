@@ -42,13 +42,11 @@ class cow(Animal):
     #     self.age = age
     #     self.color = color
 
-animal = Dog("Tom", 1, "Black", True)
+animal = Dog("Rokky", 1, "Black", True)
 print(animal.name, animal.age, animal.color, animal.is_active,"and", animal.walk())
 
 animal_cat = cat("Pussi", 3.5, "White")
 print(animal_cat.name, animal_cat.age, animal_cat.color, "and", animal_cat.walk())
-
-print(animal_cat)
 
 animal_cow = cow("Lalu", 4, "red")
 print("Animal Name:",animal_cow.name,"\nAnimal Color:", animal_cow.color, "\nAnimal Age:", animal_cow.age)
