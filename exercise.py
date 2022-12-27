@@ -13,4 +13,5 @@ def pal(w):
         rev_w = char + rev_w
     return w == rev_w
 print(pal("madam"))
+print(pal("eye"))
 
