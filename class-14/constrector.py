@@ -49,3 +49,5 @@ animal_cat = cat("Pussi", 3.5, "White")
 print(animal_cat.name, animal_cat.age, animal_cat.color, "and", animal_cat.walk())
 
 print(animal_cat)
+
+animal_cow = cow("Lalu",)
