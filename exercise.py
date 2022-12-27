@@ -7,10 +7,10 @@ def check_leapyear(year):
 check_leapyear(2000)
 
 # Palimdrome...
-def pel(w):
+def pal(w):
     rev_w = ""
     for char in w:
         rev_w = char + rev_w
     return w == rev_w
-print(pel("madam"))
+print(pal("madam"))
 
