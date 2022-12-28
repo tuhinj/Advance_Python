@@ -17,4 +17,3 @@ def pal(w):
 print(pal("madam"))
 print(pal("eye"))
 print(pal("hello"))
-
