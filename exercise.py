@@ -16,4 +16,5 @@ def pal(w):
     return w == rev_w
 print(pal("madam"))
 print(pal("eye"))
+print(pal("hello"))
 
