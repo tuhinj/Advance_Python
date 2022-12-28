@@ -17,3 +17,4 @@ def pal(word):
 print(pal("madam"))
 print(pal("eye"))
 print(pal("hello"))
+print(pal("pip"))
