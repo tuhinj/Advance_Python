@@ -9,11 +9,11 @@ check_leapyear(2010)
 
 
 # Palimdrome...
-def pal(w):
+def pal(word):
     rev_w = ""
-    for char in w:
+    for char in word:
         rev_w = char + rev_w
-    return w == rev_w
+    return word == rev_w
 print(pal("madam"))
 print(pal("eye"))
 print(pal("hello"))
