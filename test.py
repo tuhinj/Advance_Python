@@ -8,9 +8,9 @@ print(string)
 print(type(string))
 
 '''Numeric Types:	int, float, complex'''
-intger = 12
-print(intger)
-print(type(intger))
+Integers = 12
+print(Integers)
+print(type(Integers))
 
 floating = 12.3
 print(floating)
