@@ -246,9 +246,13 @@ print(f"My name is {name}, I'm {age} years old")
 
 # zfill()	Fills the string with a specified number of 0 values at the beginning
 
-m = "hello world "
+m = "hello world, Hello world"
 print(m.capitalize())
 m1 = "HELLO WORLD"
 print(m1.casefold())
 print(m1.lower())
 print(m.center(50))
+print(m.count("world"))
+print(m1.encode())
+print(m.endswith("hello"))
+print()
