@@ -311,4 +311,19 @@ print(bool({}))
 > Membership operators (in, not in)
 > Bitwise operators (&: AND, |: OR, ^: XOR, ~: NOT, <<: Zero fill left shift, >>: Signed right shift)
 '''
+a = 12
+b = 5
+print(a+b,a-b,a*b,a/b,a%b,a**b,a//b)
+a+=b
+print(a)
+a%=b
+print(a)
+a**=b
+print(a)
+print(a==b, a!=b, a>b, a<b, a>=b, a<=b)
+print(a==b and b==a)
+print(a!=b or b!=a)
+print(a is 23, b is not 6)
+l = [1, 3, 4, 6, 9]
+print(5 in l, 10 not in l)
 
