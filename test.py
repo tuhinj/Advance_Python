@@ -68,3 +68,16 @@ print(MemoryView)
 print(type(MemoryView))
 
 '''Variables'''
+'''Legal variable names:'''
+myvar = "Joy"
+my_var = "Joy"
+_my_var = "Joy"
+myVar = "Joy"
+MYVAR = "Joy"
+myvar2 = "Joy"
+
+'''Illegal variable names:'''
+#2myvar = "John"
+#my-var = "John"
+#my var = "John"
+
