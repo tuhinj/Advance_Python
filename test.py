@@ -292,3 +292,13 @@ print(a.isspace())
 print(a.istitle())
 print(a.isupper())
 
+'''The following will return False:'''
+bool(False)
+bool(None)
+bool(0)
+bool("")
+bool(())
+bool([])
+bool({})
+
+# Class 4: (conditional logic: if, else and elif, comparison operator and logical, operator in details, Nesting conditions, Short hand if - else (ternary))
