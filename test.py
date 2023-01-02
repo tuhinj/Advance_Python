@@ -104,9 +104,18 @@ List = ["Joy", 23, "Student", "BSC"]
 a, b, c, d = List
 print(a,b,c,d)
 
-'''concatenation'''
+'''Concatenation'''
 a = "Maynuddin"
 b = "Tuhin"
 c = "Joy"
 print(a + b + c)
+
+'''Comments'''
+"""if you use hash in any line of text or sentence make this a comment"""
+# Examples:
+# 12
+# "Hello World"
+# num = 123
+# name = "Joy"
+# Sentence = "My name is Maynuddin Tuhin Joy"
 
