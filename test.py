@@ -344,4 +344,12 @@ else:
 if a == b: print("It's correct!")
 print("It's Correct!")if a > b else print("It's not Correct!")
 
-
+'''Nested If'''
+if a < 6 and b > 5:
+    print("Condition True")
+    if a != b:
+        print("Condition True!")
+    else:
+        print("Condition False")
+else:
+    print("...!!!!It's Wrong!!!!...")
