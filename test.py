@@ -245,3 +245,9 @@ print(f"My name is {name}, I'm {age} years old")
 # upper()	Converts a string into upper case
 
 # zfill()	Fills the string with a specified number of 0 values at the beginning
+
+m = "hello world "
+print(m.capitalize())
+m1 = "HELLO WORLD"
+print(m1.casefold())
+print(m1.lower())
