@@ -395,3 +395,15 @@ for x in adj:
   for y in fruits:
     print(x, y)
 
+    '''Else in For loop'''
+for x in range(100):
+  print(x)
+else:
+  print("Finally finished!")
+
+"""While Loop"""
+i = 0
+while i <= 6:
+    print(i)
+    i+=2
+
