@@ -408,9 +408,18 @@ while i <= 6:
     i+=2
 
     '''The break Statement'''
-i = 2
+i = 1
 while i < 11:
     print(i)
     if i == 6:
+        print("Oh! got it!!!")
         break
     i += 2
+
+    '''The continue Statement'''
+i = 2
+while i < 11:
+    i += 2
+    if i > 6:
+        continue
+    print(i)
