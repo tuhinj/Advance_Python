@@ -103,3 +103,9 @@ print(a,b,c)
 List = ["Joy", 23, "Student", "BSC"]
 a, b, c, d = List
 print(a,b,c,d)
+
+'''Concatenation'''
+a = "Maynuddin"
+b = "Tuhin"
+c = "Joy"
+print(a + b + c)
