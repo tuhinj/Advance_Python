@@ -94,3 +94,9 @@ my_var_name = "joy"
 '''Many Values to Multiple Variables'''
 a, b, c = "Maynuddin", "Tuhin", "Joy"
 print(a,b,c)
+
+'''One Value to Multiple Variables'''
+a = b = c = "Joy"
+print(a,b,c)
+
+
