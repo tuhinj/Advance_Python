@@ -423,3 +423,11 @@ while i < 11:
     if i > 6:
         continue
     print(i)
+
+    '''The else Statement'''
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
