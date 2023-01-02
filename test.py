@@ -353,3 +353,6 @@ if x < 6 and y < 5:
         print("Condition False")
 else:
     print("...!!!!It's Wrong!!!!...")
+
+# Class 5: (While loop, For loop, Nesting loops, Break, continue and else in loops)
+'''While loop'''
