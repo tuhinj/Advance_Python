@@ -407,3 +407,10 @@ while i <= 6:
     print(i)
     i+=2
 
+    '''The break Statement'''
+i = 2
+while i < 11:
+    print(i)
+    if i == 6:
+        break
+    i += 2
