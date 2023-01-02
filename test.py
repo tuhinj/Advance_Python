@@ -142,5 +142,9 @@ slic = "Hello World"
 print(slic[0])
 print(slic[-1])
 print(slic[:5])
+print(slic[6:])
+print(slic[-11])
+print(slic[-11:])
+print(slic[-11:-6])
 
 '''string formatting'''
