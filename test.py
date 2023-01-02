@@ -258,4 +258,5 @@ print(m.endswith("hello"))
 print(m.find("w"))
 print(m.index("H"))
 joint = "."
-print(joint.join(m))
+print(joint.join(m1))
+print(m1.replace("WORLD", "BANGLADESH"))
