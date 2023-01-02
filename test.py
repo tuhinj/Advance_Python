@@ -91,3 +91,6 @@ MyVarName = "joy"
 '''Snake Case'''
 my_var_name = "joy"
 
+'''Many Values to Multiple Variables'''
+a, b, c = "Maynuddin", "Tuhin", "Joy"
+print(a,b,c)
