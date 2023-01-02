@@ -146,5 +146,6 @@ print(slic[6:])
 print(slic[-11])
 print(slic[-11:])
 print(slic[-11:-6])
+print(slic[-5:])
 
 '''string formatting'''
