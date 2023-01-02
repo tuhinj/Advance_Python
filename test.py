@@ -257,3 +257,5 @@ print(m1.encode())
 print(m.endswith("hello"))
 print(m.find("w"))
 print(m.index("H"))
+joint = "."
+print(joint.join(m))
