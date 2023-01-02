@@ -54,3 +54,15 @@ print(a,b)
 print(type(a))
 print(type(b))
 
+'''Binary Types:	bytes, bytearray, memoryview'''
+Bytes = b"Hello"
+print(Bytes)
+print(type(Bytes))
+
+Bytearray = bytearray(5)
+print(Bytearray)
+print(type(Bytearray))
+
+MemoryView = memoryview(bytes(5))
+print(MemoryView)
+print(type(MemoryView))
