@@ -293,12 +293,20 @@ print(a.istitle())
 print(a.isupper())
 
 '''The following will return False:'''
-bool(False)
-bool(None)
-bool(0)
-bool("")
-bool(())
-bool([])
-bool({})
+print(bool(False))
+print(bool(None))
+print(bool(0))
+print(bool(""))
+print(bool(()))
+print(bool([]))
+print(bool({}))
 
 # Class 4: (conditional logic: if, else and elif, comparison operator and logical, operator in details, Nesting conditions, Short hand if - else (ternary))
+'''Python divides the operators in the following groups:
+> Arithmetic operators (+,-,*,/,%,**,//)
+> Assignment operators (=, +=, -=, *=, /=, %=, //=, **=, &=, |=, ^=, >>=, <<=)
+> Comparison operators
+> Logical operators
+> Identity operators
+> Membership operators
+> Bitwise operators'''
