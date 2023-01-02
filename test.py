@@ -43,6 +43,6 @@ Set_type = {"Joy", 23, "Student", "BSC"}
 print(Set_type)
 print(type(Set_type))
 
-Frozenset = ({"Joy", 23, "Student", "BSC"})
+Frozenset = frozenset({"Joy", 23, "Student", "BSC"})
 print(Frozenset)
 print(type(Frozenset))
