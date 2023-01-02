@@ -180,28 +180,6 @@ print(f"My name is {name}, I'm {age} years old")
 
     # index()	Searches the string for a specified value and returns the position of where it was found
 
-    # isalnum()	Returns True if all characters in the string are alphanumeric
-
-    # isalpha()	Returns True if all characters in the string are in the alphabet
-
-    # isdecimal()	Returns True if all characters in the string are decimals
-
-    # isdigit()	Returns True if all characters in the string are digits
-
-    # isidentifier()	Returns True if the string is an identifier
-
-    # islower()	Returns True if all characters in the string are lower case
-
-    # isnumeric()	Returns True if all characters in the string are numeric
-
-    # isprintable()	Returns True if all characters in the string are printable
-
-    # isspace()	Returns True if all characters in the string are whitespaces
-
-    # istitle()	Returns True if the string follows the rules of a title
-
-    # isupper()	Returns True if all characters in the string are upper case
-
     # join()	Joins the elements of an iterable to the end of the string
 
     # ljust()	Returns a left justified version of the string
@@ -279,3 +257,38 @@ print(m.upper())
     # \f -> Form Feed	
     # \ooo -> Octal value	
     # \xhh -> Hex value
+print('Hello \'there\', How are you all? \\ \nI\'m also fine. I think all you know \t What about  \bI\'ll told today.')
+
+'''String Boolean'''
+# isalnum()	Returns True if all characters in the string are alphanumeric
+
+    # isalpha()	Returns True if all characters in the string are in the alphabet
+
+    # isdecimal()	Returns True if all characters in the string are decimals
+
+    # isdigit()	Returns True if all characters in the string are digits
+
+    # isidentifier()	Returns True if the string is an identifier
+
+    # islower()	Returns True if all characters in the string are lower case
+
+    # isnumeric()	Returns True if all characters in the string are numeric
+
+    # isprintable()	Returns True if all characters in the string are printable
+
+    # isspace()	Returns True if all characters in the string are whitespaces
+
+    # istitle()	Returns True if the string follows the rules of a title
+
+    # isupper()	Returns True if all characters in the string are upper case
+a = 'Hello world, It\'s my first code here in python, I\'m 23 years old'
+print(a.isalnum())
+print(a.isalpha())
+print(a.isdecimal())
+print(a.isdigit())
+print(a.islower())
+print(a.istitle())
+print(a.isspace())
+print(a.istitle())
+print(a.isupper())
+
