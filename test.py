@@ -355,4 +355,43 @@ else:
     print("...!!!!It's Wrong!!!!...")
 
 # Class 5: (While loop, For loop, Nesting loops, Break, continue and else in loops)
-'''While loop'''
+'''For loop'''
+List = ["Joy", 23, "Student", "BSC"]
+# for l in List:
+#     print(l)
+
+for al in "MAYNUDDIN":
+    print(al)
+
+    '''The break Statement'''
+for a in List:
+    print(a)
+    if "Maynuddin" not in List:
+        print("Rejected!")
+        break
+    else:
+        ("Accpted!")
+        
+    '''The continue Statement'''
+for a in List:
+    print(a)
+    if "Maynuddin" in List:
+        print("Accpted!")
+        continue
+    else:
+        ("Not Accpted!")
+    '''The range() Function'''
+for x in range(6):
+  print(x)
+
+for x in range(10, 50, 5):
+  print(x)
+
+  '''Nested Loops'''
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
+
