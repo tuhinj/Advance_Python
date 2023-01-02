@@ -149,3 +149,9 @@ print(slic[-11:-6])
 print(slic[-5:])
 
 '''string formatting'''
+age = 23
+name = "Maynuddin"
+txt = "My name is {}, I'm {} years old"
+print(txt.format(name, age))
+
+print(f"My name is {name}, I'm {age} years old")
