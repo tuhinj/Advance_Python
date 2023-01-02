@@ -77,7 +77,17 @@ MYVAR = "Joy"
 myvar2 = "Joy"
 
 '''Illegal variable names:'''
-#2myvar = "John"
-#my-var = "John"
-#my var = "John"
+    #2myvar = "John"
+    #my-var = "John"
+    #my var = "John"
+
+"""Three type of Variable Names"""
+'''Camel Case'''
+myVarName = "joy"
+
+'''Pascal Case'''
+MyVarName = "joy"
+
+'''Snake Case'''
+my_var_name = "joy"
 
