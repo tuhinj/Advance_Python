@@ -305,8 +305,10 @@ print(bool({}))
 '''Python divides the operators in the following groups:
 > Arithmetic operators (+,-,*,/,%,**,//)
 > Assignment operators (=, +=, -=, *=, /=, %=, //=, **=, &=, |=, ^=, >>=, <<=)
-> Comparison operators
-> Logical operators
-> Identity operators
-> Membership operators
-> Bitwise operators'''
+> Comparison operators (==, !=, >, <, >=, <=)
+> Logical operators (and, or, not)
+> Identity operators (is, is not)
+> Membership operators (in, not in)
+> Bitwise operators (&: AND, |: OR, ^: XOR, ~: NOT, <<: Zero fill left shift, >>: Signed right shift)
+'''
+
