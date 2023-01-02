@@ -5,18 +5,35 @@ print("Hello World!")
 '''Text data type: str'''
 string = 'Hello World'
 print(string)
+print(type(string))
 
 '''Numeric Types:	int, float, complex'''
 intger = 12
 print(intger)
+print(type(intger))
+
 floating = 12.3
 print(floating)
+print(type(floating))
+
 complex_n = 23j
 print(complex_n)
+print(type(complex_n))
 
 '''Sequence Types:	list, tuple, range'''
-List = ["joy", 23, "Student", "BSC"]
+List = ["Joy", 23, "Student", "BSC"]
 print(List)
-Tuple = ("joy", 23, "Student", "BSC")
+print(type(List))
+
+Tuple = ("Joy", 23, "Student", "BSC")
 print(Tuple)
+print(type(Tuple))
+
 Range = range(23)
+print(Range)
+print(type(Range))
+
+'''Mapping Type:	dict'''
+Dic = {"Name":"Joy", "Age":23, "Job":"Student", "Study":"BSC"}
+print(Dic)
+print(type(Dic))
