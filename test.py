@@ -251,3 +251,4 @@ print(m.capitalize())
 m1 = "HELLO WORLD"
 print(m1.casefold())
 print(m1.lower())
+print(m.center(50))
