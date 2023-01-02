@@ -47,4 +47,10 @@ Frozenset = frozenset({"Joy", 23, "Student", "BSC"})
 print(Frozenset)
 print(type(Frozenset))
 
-'''Boolean Type:	boolin'''
+'''Boolean Type:	boolean'''
+a = True
+b = False
+print(a,b)
+print(type(a))
+print(type(b))
+
