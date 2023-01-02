@@ -1,7 +1,7 @@
 # Class 1:
 print("Hello World!")
 
-# Class 2: (Introduction to python data types,Operators, Operator precedence, Input, Output, Variables, Comments
+# Class 2: (Introduction to python data types,Operators, Operator precedence, Variables, Comments
 '''Text data type: str'''
 string = 'Hello World'
 print(string)
@@ -66,3 +66,4 @@ print(type(Bytearray))
 MemoryView = memoryview(bytes(5))
 print(MemoryView)
 print(type(MemoryView))
+
