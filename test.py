@@ -341,13 +341,13 @@ else:
     print("It's not Correct!")
 
     '''Short Hand If'''
-if a == b: print("It's correct!")
-print("It's Correct!")if a > b else print("It's not Correct!")
+if x == y: print("It's correct!")
+print("It's Correct!")if x > y else print("It's not Correct!")
 
 '''Nested If'''
-if a < 6 and b > 5:
+if x < 6 and y < 5:
     print("Condition True")
-    if a != b:
+    if x != y:
         print("Condition True!")
     else:
         print("Condition False")
