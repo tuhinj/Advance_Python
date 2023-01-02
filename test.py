@@ -112,10 +112,12 @@ print(a + b + c)
 
 '''Comments'''
 """if you use hash in any line of text or sentence make this a comment"""
-# Examples:
-# 12
-# "Hello World"
-# num = 123
-# name = "Joy"
-# Sentence = "My name is Maynuddin Tuhin Joy"
+    # Examples:
+    # 12
+    # "Hello World"
+    # num = 123
+    # name = "Joy"
+    # Sentence = "My name is Maynuddin Tuhin Joy"
+
+# Class 3: (strings Slicing and formatting,string methods, Booleans)
 
