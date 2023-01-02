@@ -327,3 +327,21 @@ print(a is 23, b is not 6)
 l = [1, 3, 4, 6, 9]
 print(5 in l, 10 not in l)
 
+'''conditional logic: if, else and elif'''
+x = 4
+y = 43
+if x != y:
+    print("It's correct!")
+
+if x == y:
+    print("It's Correct!")
+elif x > y:
+    print("It's Correct!")
+else:
+    print("It's not Correct!")
+
+    '''Short Hand If'''
+if a == b: print("It's correct!")
+print("It's Correct!")if a > b else print("It's not Correct!")
+
+
