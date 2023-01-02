@@ -255,4 +255,12 @@ print(m.center(50))
 print(m.count("world"))
 print(m1.encode())
 print(m.endswith("hello"))
-print()
+print(m.find("w"))
+print(m.index("H"))
+# print(m.index("w",4,2))
+
+txt = "Hello, welcome to my world."
+
+x = txt.index("e", 5, 10)
+
+print(x)
