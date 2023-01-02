@@ -37,3 +37,8 @@ print(type(Range))
 Dic = {"Name":"Joy", "Age":23, "Job":"Student", "Study":"BSC"}
 print(Dic)
 print(type(Dic))
+
+'''Set Types:	set, frozenset'''
+Set_type = {"Joy", 23, "Student", "BSC"}
+print(Set_type)
+print(type(Set_type))
