@@ -67,3 +67,4 @@ MemoryView = memoryview(bytes(5))
 print(MemoryView)
 print(type(MemoryView))
 
+'''Variables'''
