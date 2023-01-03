@@ -584,4 +584,47 @@ print(f3)
 print(f4)
 print(f5)
 
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+f1,f2,*f3=t1
+print(f1)
+print(f2)
+print(f3)
+
+'''Loop Tuple'''
+Tuple = ('Lichi', 'Date', 'Jackfruit', 'Orange')
+for x in Tuple:
+    print(x)
+
+'''Loop Through the Index Numbers'''
+Tuple1 = ('Lichi', 'Date', 'Jackfruit', 'Orange')
+for a in range(len(Tuple1)):
+    print(a,Tuple1[a])
+
+'''Using a While Loop in List'''
+Lis = ('Apple','Lichi', 'Date', 'Jackfruit', 'Orange')
+i = 0
+while i < len(Lis):
+    print(i, Lis[i])
+    i += 1
+
+'''List Comprehension'''
+m = ('Date', 'Jackfruit', 'Orange')
+[print(x) for x in m]
+
+fruits = ("apple", "banana", "cherry", "kiwi", "mango")
+newlist = ()
+
+# for x in fruits:
+#   if "a" in x:
+#     newlist.append(x)
+
+# print(newlist)
+
+fruits = ("apple", "banana", "cherry", "kiwi", "mango")
+
+newlist = (x for x in fruits if "a" in x)
+
+print(newlist)
+
+print(Tuple1 + Tuple) # concatenate two list by "+"
 
