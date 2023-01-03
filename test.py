@@ -484,7 +484,7 @@ print(L1)
 del L2  # delete list by using "del"
 # print(L2)
 
-L3.clear()
+L3.clear() # empty list by "clear"
 print(L3)
 
 '''Loop Lists'''
@@ -498,4 +498,9 @@ for a in range(len(List1)):
     print(a,List[a])
 
 '''Using a While Loop in List'''
+Lis = ['Apple','Lichi', 'Date', 'Jackfruit', 'Orange']
+i = 0
+while i < len(Lis):
+    print(i, Lis[i])
+    i += 1
 
