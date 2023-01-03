@@ -628,3 +628,38 @@ print(newlist)
 
 print(Tuple1 + Tuple) # concatenate two list by "+"
 
+# Class 7: (Accessing and looping set items, Set methods, Accessing and looping dictionary items, Dictionary methods)
+"""SET"""
+Set = {"apple", True, 234, "Tuhin"}
+print(type(Set))
+
+print(len(Set))
+
+'''Access Set Items'''
+Set1 = {"apple", False, 12, "Joy"}
+for a in Set1:
+    print(a)
+
+print("Tuhin" in Set1)
+
+Set.add("Joy") # add item by "add"
+print(Set)
+
+Set.update(Set1) # add two set by "upbate"
+print(Set)
+
+Set.remove("Tuhin") # delete item by "remove"
+print(Set)
+
+Set.discard("Joy") # remove savely by "discard"
+print(Set)
+
+Set.pop() # remove last item by "pop"
+print(Set) 
+
+Set.clear() # clear set by "clear"
+print(Set)
+
+del Set1
+# print(Set1)
+
