@@ -495,4 +495,7 @@ for x in List:
 '''Loop Through the Index Numbers'''
 List1 = ['Lichi', 'Date', 'Jackfruit', 'Orange']
 for a in range(len(List1)):
-    print(List1[1])
+    print(a,List[a])
+
+'''Using a While Loop in List'''
+
