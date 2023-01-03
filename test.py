@@ -530,5 +530,7 @@ newlist = [x for x in fruits if "a" in x]
 
 print(newlist)
 
+print(Lis + List2) # concatenate two list by "+"
+
 """TUPLE"""
 
