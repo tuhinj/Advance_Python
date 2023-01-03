@@ -545,3 +545,10 @@ print(t1[3])
 
 if 'banana' in t1:
     print("Cool!....")
+
+'''Python - Update Tuples'''
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+t2 = list(t1)
+t2[2] = "orange"
+t1 = tuple(t2)
+print(t1)
