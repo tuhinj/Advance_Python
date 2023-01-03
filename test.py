@@ -463,11 +463,16 @@ L2[:2] = ["Lichi","Date", "Jackfruit"]
 print(L2)
 
 L3 = ['Lichi', 'Date', 'Jackfruit', 'Orange']
-L3.insert(2, "Apple")
+L3.insert(2, "Apple") # add item by 'insert' use index and item name
 print(L3)
 
-L1.append("Lichi")
+L1.append("Lichi") # add item by 'append'
 print(L1)
 
-L1.extend(L2)
+L1.extend(L2) # add two list by 'extend'
 print(L1)
+
+L1.remove("Apple")
+print(L1)
+
+
