@@ -533,4 +533,15 @@ print(newlist)
 print(Lis + List2) # concatenate two list by "+"
 
 """TUPLE"""
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
 
+print(len(t1)) # show length by "len"
+
+print(type(t1))
+
+'''Access Tuple Items'''
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+print(t1[3])
+
+if 'banana' in t1:
+    print("Cool!....")
