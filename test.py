@@ -552,3 +552,26 @@ t2 = list(t1)
 t2[2] = "orange"
 t1 = tuple(t2)
 print(t1)
+
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+t2 = list(t1)
+t2.append("orange")
+t1 = tuple(t2)
+print(t1)
+
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+t2 = list(t1)
+t2.remove("mango")
+t1 = tuple(t2)
+print(t1)
+
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+t2 = list(t1)
+t2.clear()
+t1 = tuple(t2)
+print(t1)
+
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+del t1
+print(t1)
+
