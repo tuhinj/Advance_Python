@@ -489,4 +489,10 @@ print(L3)
 
 '''Loop Lists'''
 List = ['Lichi', 'Date', 'Jackfruit', 'Orange']
+for x in List:
+    print(x)
 
+'''Loop Through the Index Numbers'''
+List1 = ['Lichi', 'Date', 'Jackfruit', 'Orange']
+for a in range(len(List1)):
+    print(List1[1])
