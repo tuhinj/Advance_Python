@@ -663,3 +663,43 @@ print(Set)
 del Set1
 # print(Set1)
 
+Set3 = {"apple", True, 234, "Tuhin"}
+for a in Set3:
+    print(a)
+
+'''Join Sets'''
+s1 = {1,2,3,4}
+s2 = {1,4,6,9,8}
+
+s3 = s1.union(s2) # joined two set in a variable by "union"
+print(s3)
+
+s1.update(s2) # joined two set by "update"
+print(s1)
+
+s1 = {1,2,3,4}
+s2 = {1,4,6,9,8}
+
+s = s1.intersection(s2) # two set in a variable but only common value by "intersection"
+print(s)
+
+s1.intersection_update(s2) # joined two set but only common value output by "intersection_update"
+print(s1)
+
+s1 = {1,2,3,4}
+s2 = {1,4,6,9,8}
+
+s = s1.symmetric_difference(s2) # two set in a variable but only uncommon value by "symmetric_difference"
+print(s)
+
+s1.symmetric_difference_update(s2) # joined two set but only uncommon value output by "symmetric_difference_update"
+print(s1)
+
+"""DICTIONARIES"""
+Dic = {"Name":"Joy", "Age":23, "Job":"Student", "Study":"BSC"}
+print(type(Dic))
+
+nDis = dict(Name="Joy", Age=23, Job="Student", Study="BSC")
+print(nDis)
+
+
