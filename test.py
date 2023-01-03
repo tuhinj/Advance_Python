@@ -573,5 +573,15 @@ print(t1)
 
 t1 =("apple", "banana", "cherry", "kiwi", "mango")
 del t1
-print(t1)
+# print(t1)
+
+'''Unpack Tuples'''
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+f1,f2,f3,f4,f5=t1
+print(f1)
+print(f2)
+print(f3)
+print(f4)
+print(f5)
+
 
