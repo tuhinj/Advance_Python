@@ -1,119 +1,134 @@
-# introduction to python data types...
-    # str = 'joy', "hello there"
-# name = 'Tuhin'
-# fullName = "Maynuddin Tuhin Joy"
-# print('str:',name, fullName)
-    # int = 19, 1, 12224
-# a = 10
-# b = 234
-# print('int:', a, b)
+# Class 2: (Introduction to python data types,Operators, Operator precedence, Variables, Comments
+'''Text data type: str'''
+string = 'Hello World'
+print(string)
+print(type(string))
 
-    # float = 1.3, 34.5857843098
-# c = 23.3
-# d = 2.4452345
-# print('float:', c, d)
+'''Numeric Types:	int, float, complex'''
+Integers = 12
+print(Integers)
+print(type(Integers))
 
-    # complex = 23j, 54j
-# e = 24j
-# f = 3j + 3
-# print('Complex:', e, f)
+floating = 12.3
+print(floating)
+print(type(floating))
 
-    # list // it can be change (mutable)
-# lis = ['joy', 56, 3.45464, 1j,['tuhin', 'joy']]
-# print('list:',lis)
+complex_n = 23j
+print(complex_n)
+print(type(complex_n))
 
-#     # tuple // it cannot be change (immutable)
-# tup = ('joy', 57, 4.34,['joy',57])
-# print('tuple:',tup)
+'''Sequence Types:	list, tuple, range'''
+List = ["Joy", 23, "Student", "BSC"]
+print(List)
+print(type(List))
 
-    # range = range(0, 13, 3) //1st number for range start, //2nd number for range end, //3rd number set range...
-    # dict //in dict have two type key and value..
-# dic = {'name': 'joy', 'age': 23, 'family': [{'father': 'Jahangir', 'Mother': 'Monalisa'}]} 
-# print('Dict:',dic)
+Tuple = ("Joy", 23, "Student", "BSC")
+print(Tuple)
+print(type(Tuple))
 
-#     # set //in set same data cann't appliabal...
-# s = {'Rohim', 'Korim', 'Joy', 'Shanto', 'Joy', 'Shanto'}
-# print('Set:',s)
+Range = range(23)
+print(Range)
+print(type(Range))
 
-#     # frozenset //in frozenset cann't apply duplicate value...
-# fs = (('joy', 100, 2.3, 3))
-# print('frozenset:',fs)
+'''Mapping Type:	dict'''
+Dic = {"Name":"Joy", "Age":23, "Job":"Student", "Study":"BSC"}
+print(Dic)
+print(type(Dic))
 
-    # bool = True, False
-    # bytes, bytearray, memoryview...
-    # none //js in null python none...
+'''Set Types:	set, frozenset'''
+Set_type = {"Joy", 23, "Student", "BSC"}
+print(Set_type)
+print(type(Set_type))
 
-# Arithmetic Operators...
-    # +, -, *, /, %, **,//
-# n1 = 10
-# n2 = 3
-# print('All Arithmetic Operation:',n1 + n2, n1 - n2, n1 * n2, n1 / n2, n1 % n2, (n1 + n2)**2, n1 // n2)
-    # PEMDAS
-    # P = parenthesis ()
-    # E = Exponent **
-    # M = Multiplication *
-    # D = Devition /
-    # A = Addition +
-    # S = Subtraction -
+Frozenset = frozenset({"Joy", 23, "Student", "BSC"})
+print(Frozenset)
+print(type(Frozenset))
 
-# Assignment Operators...
-    #=, +=, -=, /=, %/, //=, **=
-    # age = age + 2 or age += 2
-# age = 20 
-# age += 2
-# print(age)
+'''Boolean Type:	boolean'''
+a = True
+b = False
+print(a,b)
+print(type(a))
+print(type(b))
 
-# - Comparison operators
-        # ==, !=, >, <, >=, <=
-# a = 12
-# print(a == a)
-# print(a != a)
-# print(a < 34)
-# print(a > 45)
-# print(a >= 13)
-# print(a <= 34)
+'''Binary Types:	bytes, bytearray, memoryview'''
+Bytes = b"Hello"
+print(Bytes)
+print(type(Bytes))
 
-#Logical Operators...
-    # and, or, not
-# joy = 'worker'
-# if joy == 'student' or joy == 'teacher':
-#     print('Get parmite to access the University')
-# else: print('Sorry!')
+Bytearray = bytearray(5)
+print(Bytearray)
+print(type(Bytearray))
 
-# Identity Operators...
-    # is, is not
-# print(joy is joy)
+MemoryView = memoryview(bytes(5))
+print(MemoryView)
+print(type(MemoryView))
 
-# - Membership operators
-    # in, not in
-# students = ["Rahim", "Karim", "Sajal"]
-# print("Rahim" in students)
+'''Variables'''
+'''Legal variable names:'''
+myvar = "Joy"
+my_var = "Joy"
+_my_var = "Joy"
+myVar = "Joy"
+MYVAR = "Joy"
+myvar2 = "Joy"
 
-# - Bitwise operators
+'''Illegal variable names:'''
+    #2myvar = "John"
+    #my-var = "John"
+    #my var = "John"
 
-# operator precendence in Python
+"""Three type of Variable Names"""
+'''Camel Case'''
+myVarName = "joy"
 
-# input
-    # name = input("What's your name? :")
-    # print("Hi " + name + ". How are you?")
+'''Pascal Case'''
+MyVarName = "joy"
 
-# output
-    # print("HELLO","World","HI", sep="-")
+'''Snake Case'''
+my_var_name = "joy"
 
-    # print("Hi there", end="*")
-    # print("How are you")
+'''Many Values to Multiple Variables'''
+a, b, c = "Maynuddin", "Tuhin", "Joy"
+print(a,b,c)
 
-# variables
-    # sum_of_numbers = 3 + 4 + 6
+'''One Value to Multiple Variables'''
+a = b = c = "Joy"
+print(a,b,c)
 
-        # pascal case = StudentOneName
+'''Unpack a Collection'''
+List = ["Joy", 23, "Student", "BSC"]
+a, b, c, d = List
+print(a,b,c,d)
 
-        # camel case = studentOneName
+'''Concatenation'''
+a = "Maynuddin"
+b = "Tuhin"
+c = "Joy"
+print(a + b + c)
 
-        # snake case = student_one_name # used for declaring variables
+'''Comments'''
+"""if you use hash in any line of text or sentence make this a comment"""
+    # Examples:
+    # 12
+    # "Hello World"
+    # num = 123
+    # name = "Joy"
+    # Sentence = "My name is Maynuddin Tuhin Joy"
 
-    # print(sum_of_numbers)
+'''Python Casting'''
+'''Integers:'''
+x = int(1.4)   # x will be 1
+y = int(2.8) # y will be 2
+z = int("3") # z will be 3
 
-# comments
-    #I am a student
-"""jksdfjdsklfjdsfkldsfjsdf"""
+'''Floats:'''
+x = float(1)     # x will be 1.0
+y = float(2.8)   # y will be 2.8
+z = float("3")   # z will be 3.0
+w = float("4.2") # w will be 4.2
+
+'''Strings:'''
+x = str("s1") # x will be 's1'
+y = str(2)    # y will be '2'
+z = str(3.0)  # z will be '3.0'

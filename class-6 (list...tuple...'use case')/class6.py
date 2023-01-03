@@ -1,113 +1,196 @@
-# a = [1, 2, 3, 4, 5, 6]
+# Class 6: (list in Python, List methods, List comprehension, Introduction to tuple in Python, Tuple methods, Tuple unpacking)
+"""LIST"""
+List = ['Joy', 23, 'Student', 'BSC', 'CSE', True]
+print(List)
+print(len(List))
+print(type(List))
 
-# a.append(7)
+'''make list'''
+List2 = list(('Joy', 23, 'Student', 'BSC', 'CSE', True))
+print(List2)
+print(type(List2))
 
-# print(a)
+'''Access items'''
+List2 = ['Joy', 23, 'Student', 'BSC', 'CSE', True]
+print(List2[1])
+print(List2[-1])
+print(List2[:3])
 
-# a.pop()
+'''Check if Item Exists'''
+L1 = ["Apple","Banana","Orange"]
+if "Banana" in L1:
+    print("Apple in List")
 
-# print(a)
+'''Change Item Value'''
+L2 = ["Apple","Banana","Orange"]
+L2[1] = "Mango"
+print(L2)
 
-# a.pop(2)
+L2[:2] = ["Lichi","Date", "Jackfruit"]
+print(L2)
 
-# print(a)
+L3 = ['Lichi', 'Date', 'Jackfruit', 'Orange']
+L3.insert(2, "Apple") # add item by 'insert' use index and item name
+print(L3)
 
-# b = [1, 2, 5, 3, 4, 5, 6, 5]
+L1.append("Lichi") # add item by 'append'
+print(L1)
 
-# c = ["hello", "world", "ugv"]
+L1.extend(L2) # add two list by 'extend'
+print(L1)
 
-# c.remove("world")
+L1.remove("Apple") # delete item by "remove"
+print(L1)
 
-# print(c)
+L1.pop() # delete item by "pop"
+print(L1)
 
-# b.remove(5)
+L1.pop(1)
+print(L1)
 
-# print(b)
+del L2  # delete list by using "del"
+# print(L2)
 
-# d = [1, 2, 3]
+L3.clear() # empty list by "clear"
+print(L3)
 
-# e = [4, 5, 6]
+L1.sort() # arrange list by "sort"
+print(L1)
 
-# f = d + e # concatenation
+L1.reverse() # reverse list by "reverse"
+print(L1)
 
-# print(d)
-# print(e)
+'''Loop Lists'''
+List = ['Lichi', 'Date', 'Jackfruit', 'Orange']
+for x in List:
+    print(x)
 
-# print("F is now: ",f)
+'''Loop Through the Index Numbers'''
+List1 = ['Lichi', 'Date', 'Jackfruit', 'Orange']
+for a in range(len(List1)):
+    print(a,List[a])
 
-# d.extend(e)
+'''Using a While Loop in List'''
+Lis = ['Apple','Lichi', 'Date', 'Jackfruit', 'Orange']
+i = 0
+while i < len(Lis):
+    print(i, Lis[i])
+    i += 1
 
-# print("d is now: ",d)
+'''List Comprehension'''
+m = ['Date', 'Jackfruit', 'Orange']
+[print(x) for x in m]
 
-# g = [3, 8, 7, 2, 9]
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
 
-# g.sort()
+# for x in fruits:
+#   if "a" in x:
+#     newlist.append(x)
 
-# print(g)
+# print(newlist)
 
-# h = ["hello", "Abdul", "zohir", "akram"]
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
-# h.sort(reverse=True)
-# print(h)
-# h.reverse()
-# print(h)
+newlist = [x for x in fruits if "a" in x]
 
-# print(len({"a": 3, "b": 5}))
-# print(len("hello"))
+print(newlist)
 
-# h.clear()
+print(Lis + List2) # concatenate two list by "+"
 
-# i = h
+"""TUPLE"""
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
 
-# i = h.copy()
+print(len(t1)) # show length by "len"
 
-# i[1] = "Rahim"
+print(type(t1))
 
-# print(i)
-# print(h)
+'''Access Tuple Items'''
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+print(t1[3])
 
-# j = (1, 2, 3, 4)
-# k = (9, 8, 6)
+if 'banana' in t1:
+    print("Cool!....")
 
-# l = j + k
+'''Python - Update Tuples'''
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+t2 = list(t1)
+t2[2] = "orange"
+t1 = tuple(t2)
+print(t1)
 
-# print(l)
-# print(j, k)
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+t2 = list(t1)
+t2.append("orange")
+t1 = tuple(t2)
+print(t1)
 
-# def get_students():
-    # doing lots of operation
-    # return ("Rahim", "Karim", "Abdul")
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+t2 = list(t1)
+t2.remove("mango")
+t1 = tuple(t2)
+print(t1)
 
-# student1, *otherStudents = get_students()
-# student1, student2, student3 = (1, 2, 3)
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+t2 = list(t1)
+t2.clear()
+t1 = tuple(t2)
+print(t1)
 
-# print(student1, student2, student3)
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+del t1
+# print(t1)
 
-# m = ("Rahim", "Jakaria", "Siam", "Jakaria")
+'''Unpack Tuples'''
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+f1,f2,f3,f4,f5=t1
+print(f1)
+print(f2)
+print(f3)
+print(f4)
+print(f5)
 
+t1 =("apple", "banana", "cherry", "kiwi", "mango")
+f1,f2,*f3=t1
+print(f1)
+print(f2)
+print(f3)
 
-# print(m.index("Siam"))
+'''Loop Tuple'''
+Tuple = ('Lichi', 'Date', 'Jackfruit', 'Orange')
+for x in Tuple:
+    print(x)
 
-# print(m.count("Jakaria"))
+'''Loop Through the Index Numbers'''
+Tuple1 = ('Lichi', 'Date', 'Jackfruit', 'Orange')
+for a in range(len(Tuple1)):
+    print(a,Tuple1[a])
 
-names = ["arif", "saikat", "rabbi", "masud"]
+'''Using a While Loop in List'''
+Lis = ('Apple','Lichi', 'Date', 'Jackfruit', 'Orange')
+i = 0
+while i < len(Lis):
+    print(i, Lis[i])
+    i += 1
 
-for index, name in enumerate(names):
-    print(name.capitalize(), " ", index)
-    # names[index] = name.capitalize()
+'''List Comprehension'''
+m = ('Date', 'Jackfruit', 'Orange')
+(print(x) for x in m)
 
-print(names)
+fruits = ("apple", "banana", "cherry", "kiwi", "mango")
+newlist = ()
 
-# # names = [name + " - eve" for name in names]
+# for x in fruits:
+#   if "a" in x:
+#     newlist.append(x)
 
-# for name in names:
-#     print(name)
+# print(newlist)
 
-# names = ["arif", "saikat", "rabbi", "masud"]
+fruits = ("apple", "banana", "cherry", "kiwi", "mango")
 
-# # names = [name.upper() for name in names if "rabbi" == name]
+newlist = (x for x in fruits if "a" in x)
 
-# names = [name.upper() if name == "rabbi" else name for name in names]
+print(newlist)
 
-# print("NAMES: ", names)
+print(Tuple1 + Tuple) # concatenate two list by "+"
 

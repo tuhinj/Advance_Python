@@ -1,26 +1,53 @@
-"""Conditional Statement: if, else, elif """
+# Class 4: (conditional logic: if, else and elif, comparison operator and logical, operator in details, Nesting conditions, Short hand if - else (ternary))
+'''Python divides the operators in the following groups:
+> Arithmetic operators (+,-,*,/,%,**,//)
+> Assignment operators (=, +=, -=, *=, /=, %=, //=, **=, &=, |=, ^=, >>=, <<=)
+> Comparison operators (==, !=, >, <, >=, <=)
+> Logical operators (and, or, not)
+> Identity operators (is, is not)
+> Membership operators (in, not in)
+> Bitwise operators (&: AND, |: OR, ^: XOR, ~: NOT, <<: Zero fill left shift, >>: Signed right shift)
+'''
+a = 12
+b = 5
+print(a+b,a-b,a*b,a/b,a%b,a**b,a//b)
+a+=b
+print(a)
+a%=b
+print(a)
+a**=b
+print(a)
+print(a==b, a!=b, a>b, a<b, a>=b, a<=b)
+print(a==b and b==a)
+print(a!=b or b!=a)
+print(a is 23, b is not 6)
+l = [1, 3, 4, 6, 9]
+print(5 in l, 10 not in l)
 
-student1_name = 'Joy - eve'
-student2_name = 'Tuhin '
+'''conditional logic: if, else and elif'''
+x = 4
+y = 43
+if x != y:
+    print("It's correct!")
 
-# if student1_name.endswith('eve'):
-if student2_name.endswith('reg'): #truthy value "hello", 2(positive number), -3(negtive number)" #Falsy value: 0, None, False
-    # student2_name = student2_name.replace('reg', 'eve')
-    '''Nested condition'''
-    print("Student from regular batch")
-    print(student2_name)
-    # if student2_name.startswith("Tuhin"):
-    if student2_name.startswith("Joy"):
-        print("hello Tuhin")
-    else: 
-        print("sorry Tuhin")
-elif student2_name.endswith('eve'):
-    print("Student from evening batch")
-
+if x == y:
+    print("It's Correct!")
+elif x > y:
+    print("It's Correct!")
 else:
-    print("Sorry! you are name isn't here, pleace contect your department")
+    print("It's not Correct!")
 
-# print(student2_name)
+    '''Short Hand If'''
+if x == y: print("It's correct!")
+print("It's Correct!")if x > y else print("It's not Correct!")
 
-'''Ternnery Oprator'''
-print("Student from regular batch") if student2_name.endswith("reg") else print("Student from evening batch") if student2_name.endswith("eve") else print("Sorry!")
+'''Nested If'''
+if x < 6 and y < 5:
+    print("Condition True")
+    if x != y:
+        print("Condition True!")
+    else:
+        print("Condition False")
+else:
+    print("...!!!!It's Wrong!!!!...")
+
