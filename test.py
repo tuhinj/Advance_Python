@@ -459,4 +459,5 @@ L2 = ["Apple","Banana","Orange"]
 L2[1] = "Mango"
 print(L2)
 
-
+L2[:2] = ["Lichi","Date", "Jackfruit"]
+print(L2)
