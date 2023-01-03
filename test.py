@@ -472,7 +472,13 @@ print(L1)
 L1.extend(L2) # add two list by 'extend'
 print(L1)
 
-L1.remove("Apple")
+L1.remove("Apple") # delete item by "remove"
+print(L1)
+
+L1.pop() # delete item by "pop"
+print(L1)
+
+L1.pop(1)
 print(L1)
 
 
