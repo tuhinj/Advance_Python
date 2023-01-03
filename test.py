@@ -465,3 +465,9 @@ print(L2)
 L3 = ['Lichi', 'Date', 'Jackfruit', 'Orange']
 L3.insert(2, "Apple")
 print(L3)
+
+L1.append("Lichi")
+print(L1)
+
+L1.extend(L2)
+print(L1)
