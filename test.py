@@ -609,7 +609,7 @@ while i < len(Lis):
 
 '''List Comprehension'''
 m = ('Date', 'Jackfruit', 'Orange')
-[print(x) for x in m]
+(print(x) for x in m)
 
 fruits = ("apple", "banana", "cherry", "kiwi", "mango")
 newlist = ()
