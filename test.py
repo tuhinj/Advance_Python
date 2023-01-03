@@ -481,4 +481,12 @@ print(L1)
 L1.pop(1)
 print(L1)
 
+del L2  # delete list by using "del"
+# print(L2)
+
+L3.clear()
+print(L3)
+
+'''Loop Lists'''
+List = ['Lichi', 'Date', 'Jackfruit', 'Orange']
 
