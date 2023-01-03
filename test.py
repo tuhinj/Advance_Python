@@ -431,3 +431,21 @@ while i < 6:
   i += 1
 else:
   print("i is no longer less than 6")
+
+# Class 6: (list in Python, List methods, List comprehension, Introduction to tuple in Python, Tuple methods, Tuple unpacking)
+List = ['Joy', 23, 'Student', 'BSC', 'CSE', True]
+print(List)
+print(len(List))
+print(type(List))
+'''make list'''
+List2 = list(('Joy', 23, 'Student', 'BSC', 'CSE', True))
+print(List2)
+print(type(List2))
+'''Access items'''
+List2 = ['Joy', 23, 'Student', 'BSC', 'CSE', True]
+print(List2[1])
+print(List2[-1])
+print(List2[:3])
+'''Check if Item Exists'''
+L1 = ["Apple","Banana","Orange",]
+
