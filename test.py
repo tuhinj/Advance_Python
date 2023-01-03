@@ -433,6 +433,7 @@ else:
   print("i is no longer less than 6")
 
 # Class 6: (list in Python, List methods, List comprehension, Introduction to tuple in Python, Tuple methods, Tuple unpacking)
+"""LIST"""
 List = ['Joy', 23, 'Student', 'BSC', 'CSE', True]
 print(List)
 print(len(List))
@@ -487,6 +488,12 @@ del L2  # delete list by using "del"
 L3.clear() # empty list by "clear"
 print(L3)
 
+L1.sort() # arrange list by "sort"
+print(L1)
+
+L1.reverse() # reverse list by "reverse"
+print(L1)
+
 '''Loop Lists'''
 List = ['Lichi', 'Date', 'Jackfruit', 'Orange']
 for x in List:
@@ -503,4 +510,25 @@ i = 0
 while i < len(Lis):
     print(i, Lis[i])
     i += 1
+
+'''List Comprehension'''
+m = ['Date', 'Jackfruit', 'Orange']
+[print(x) for x in m]
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+# for x in fruits:
+#   if "a" in x:
+#     newlist.append(x)
+
+# print(newlist)
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in fruits if "a" in x]
+
+print(newlist)
+
+"""TUPLE"""
 
