@@ -437,15 +437,26 @@ List = ['Joy', 23, 'Student', 'BSC', 'CSE', True]
 print(List)
 print(len(List))
 print(type(List))
+
 '''make list'''
 List2 = list(('Joy', 23, 'Student', 'BSC', 'CSE', True))
 print(List2)
 print(type(List2))
+
 '''Access items'''
 List2 = ['Joy', 23, 'Student', 'BSC', 'CSE', True]
 print(List2[1])
 print(List2[-1])
 print(List2[:3])
+
 '''Check if Item Exists'''
-L1 = ["Apple","Banana","Orange",]
+L1 = ["Apple","Banana","Orange"]
+if "Banana" in L1:
+    print("Apple in List")
+
+'''Change Item Value'''
+L2 = ["Apple","Banana","Orange"]
+L2[1] = "Mango"
+print(L2)
+
 
