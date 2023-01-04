@@ -825,5 +825,11 @@ def family_member(**name): # Make a Dictionary by this Arguments '**name'
     print("My family member:",name)
 family_member(Father = "Jamal",Mother = "Jesmin", Son = "Kabir")
 
+'''Default Parameter Value'''
+def your_name(name = "Please enter your name"):
+    print("My name is " + name)
+your_name()
+your_name("Joy")
+
 
 
