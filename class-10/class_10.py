@@ -5,6 +5,7 @@
 #     return cash_in_hand 
 # import class_11
 
+<<<<<<< HEAD
 # print(class_11.calculate_balance(10000,850))
 # num = 5 + '5'
 
@@ -29,3 +30,6 @@ finally:
     print("Done!")
 
 print("Hello world!")
+=======
+# print(class_11.calculate_balance(10000,850))
+>>>>>>> practice

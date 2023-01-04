@@ -1,28 +1,77 @@
-# Loop (while, for)
+# Class 5: (While loop, For loop, Nesting loops, Break, continue and else in loops)
+'''For loop'''
+List = ["Joy", 23, "Student", "BSC"]
+# for l in List:
+#     print(l)
 
-# a = 0
+for al in "MAYNUDDIN":
+    print(al)
 
-# while True:
-#     print(a)
-#     a += 1
+    '''The break Statement'''
+for a in List:
+    print(a)
+    if "Maynuddin" not in List:
+        print("Rejected!")
+        break
+    else:
+        ("Accpted!")
+        
+    '''The continue Statement'''
+for a in List:
+    print(a)
+    if "Maynuddin" in List:
+        print("Accpted!")
+        continue
+    else:
+        ("Not Accpted!")
+    '''The range() Function'''
+for x in range(6):
+  print(x)
 
-# while a <= 50:
-#     a += 1
-#     print(a)
+for x in range(10, 50, 5):
+  print(x)
 
-# student = ['joy', 'azmal', 'rahat']
+  '''Nested Loops'''
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
 
-# for student in enumerate(student):
-#     print(student)
+for x in adj:
+  for y in fruits:
+    print(x, y)
 
-# i = 1
-# while i <= 50:
-#     print(i)
-#     i+=1
+    '''Else in For loop'''
+for x in range(100):
+  print(x)
+else:
+  print("Finally finished!")
 
-# i = 1
-# while i<100:
-#     print(i)
-#     if i == 50:
-#         break
-#     i+=1
+"""While Loop"""
+i = 0
+while i <= 6:
+    print(i)
+    i+=2
+
+    '''The break Statement'''
+i = 1
+while i < 11:
+    print(i)
+    if i == 6:
+        print("Oh! got it!!!")
+        break
+    i += 2
+
+    '''The continue Statement'''
+i = 2
+while i < 11:
+    i += 2
+    if i > 6:
+        continue
+    print(i)
+
+    '''The else Statement'''
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
