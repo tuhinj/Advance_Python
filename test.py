@@ -702,4 +702,60 @@ print(type(Dic))
 nDis = dict(Name="Joy", Age=23, Job="Student", Study="BSC")
 print(nDis)
 
+print(nDis["Name"])
+
+'''Accessing Items'''
+Dic = {"Name":"Joy", "Age":23, "Job":"Student", "Study":"BSC"}
+print(Dic["Age"])
+
+x = Dic.get("Job")
+print(x)
+
+print(Dic.keys())
+
+print(Dic.values())
+
+a = Dic.items()
+print(a)
+
+if "Name" in Dic:
+    print("Yes!!!!")
+
+'''Add & Change Dictionary Items'''
+Dic["Name"] = "Maynuddin Tuhin Joy"
+print(Dic)
+
+Dic.update({"Blood_G": "B+"})
+print(Dic)
+
+Dic.pop("Job")
+print(Dic)
+
+Dic.popitem()
+print(Dic)
+
+Dic.clear()
+print(Dic)
+
+del Dic
+# print(Dic)
+
+'''Loop Dictionaries'''
+Dic = {"Name":"Joy", "Age":23, "Job":"Student", "Study":"BSC"}
+for a in Dic:
+    print(a)
+
+for b in Dic.items():
+    print(b)
+
+for c in Dic.values():
+    print(c)
+
+for d in Dic.keys():
+    print(d)
+
+for x, y in Dic.items():
+    print(x,y)
+
+
 
