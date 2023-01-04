@@ -757,5 +757,13 @@ for d in Dic.keys():
 for x, y in Dic.items():
     print(x,y)
 
+'''Copy Dictionary'''
+Dic = {"Name":"Joy", "Age":23, "Job":"Student", "Study":"BSC"}
+Dic2 = Dic.copy()
+print(Dic2)
+
+Dic3 = dict(Dic)
+print(Dic3)
+
 
 
