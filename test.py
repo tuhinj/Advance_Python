@@ -765,5 +765,7 @@ print(Dic2)
 Dic3 = dict(Dic)
 print(Dic3)
 
+'''Nested Dictionaries'''
+Dic = {"Name":"Joy", "Age":23, "Job":"Student", "Study":"BSC"}
 
 
