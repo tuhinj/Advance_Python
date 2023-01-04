@@ -808,4 +808,8 @@ def my_function():
     print("Hello World")
 my_function()
 
+def full_name(firstn):
+    print(firstn + " Joy")
 
+full_name("Maynuddin")
+full_name("Tuhin")
