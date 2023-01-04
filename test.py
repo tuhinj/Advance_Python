@@ -839,6 +839,6 @@ fruits_name(fruite_list)
 
 def math(a):
     return 2 * a
-print("Result",math(5))
-
+print("Result:",math(5))
+print("Result:",math(10))
 
