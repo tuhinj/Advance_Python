@@ -831,5 +831,14 @@ def your_name(name = "Please enter your name"):
 your_name()
 your_name("Joy")
 
+def fruits_name(fruit): # Passing a List as an Argument
+    for x in fruit:
+        print(x)
+fruite_list = ["Banana", "Apple", "Jackfruit"]
+fruits_name(fruite_list)
+
+def math(a):
+    return 2 * a
+print("Result",math(5))
 
 
