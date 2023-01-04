@@ -808,8 +808,15 @@ def my_function():
     print("Hello World")
 my_function()
 
-def full_name(firstn):
+def full_name(firstn): # Arguments
     print(firstn + " Joy")
-
 full_name("Maynuddin")
 full_name("Tuhin")
+
+def my_name(firstn, lastn):
+    print(firstn,lastn)
+my_name("Maynuddin","Tuhin Joy")
+
+def fruit(*name):
+    print(name)
+fruit("Jackfruit","Lichi","Mango", "Banana")
