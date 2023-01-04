@@ -817,6 +817,13 @@ def my_name(firstn, lastn):
     print(firstn,lastn)
 my_name("Maynuddin","Tuhin Joy")
 
-def fruit(*name):
+def fruit(*name): # Make a tuple by this Arguments '*name'
     print(name)
 fruit("Jackfruit","Lichi","Mango", "Banana")
+
+def family_member(**name): # Make a Dictionary by this Arguments '**name'
+    print("My family member:",name)
+family_member(Father = "Jamal",Mother = "Jesmin", Son = "Kabir")
+
+
+
