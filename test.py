@@ -803,3 +803,9 @@ myfamily1 = {
 print(myfamily1)
 
 # Class 8: (Getting started with function in Python, Recursive function, Introduction to lambda function in Python, Introduction to built in function in Python, Scopes in Python, Pass statement in python)
+"""Python Functions"""
+def my_function():
+    print("Hello World")
+my_function()
+
+
