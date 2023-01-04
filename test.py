@@ -842,3 +842,7 @@ def math(a):
 print("Result:",math(5))
 print("Result:",math(10))
 
+def myfunction(): # put in the pass statement to avoid getting an error.
+  pass
+
+"""Recursive function"""
