@@ -1,273 +1,173 @@
+# Class 7: (Accessing and looping set items, Set methods, Accessing and looping dictionary items, Dictionary methods)
+"""SET"""
+Set = {"apple", True, 234, "Tuhin"}
+print(type(Set))
 
-students = {"name": "Sohan", "age": 35, "gender": "Male"}
+print(len(Set))
 
-# print(students["age"])
+'''Access Set Items'''
+Set1 = {"apple", False, 12, "Joy"}
+for a in Set1:
+    print(a)
 
-# print(students.get("name"))
+print("Tuhin" in Set1)
 
-# students["cgpa"] = 3.58
+Set.add("Joy") # add item by "add"
+print(Set)
 
-# # students["age"] = 36
-# students["age"] += 2
+Set.update(Set1) # add two set by "upbate"
+print(Set)
 
-# print(students)
+Set.remove("Tuhin") # delete item by "remove"
+print(Set)
 
-# students.update({"skill": "prgramming", "address": "Rupatoli"})
+Set.discard("Joy") # remove savely by "discard"
+print(Set)
 
-# print(students)
+Set.pop() # remove last item by "pop"
+print(Set) 
 
-# # students.pop("cgpa")
+Set.clear() # clear set by "clear"
+print(Set)
 
-# students.popitem()
+del Set1
+# print(Set1)
 
-# print(students)
+Set3 = {"apple", True, 234, "Tuhin"}
+for a in Set3:
+    print(a)
 
-# print(students.setdefault("weight", 56))
+'''Join Sets'''
+s1 = {1,2,3,4}
+s2 = {1,4,6,9,8}
 
-# # students.clear()
+s3 = s1.union(s2) # joined two set in a variable by "union"
+print(s3)
 
-# # print(students)
+s1.update(s2) # joined two set by "update"
+print(s1)
 
-# a = ("rahim", "karim", "sofiq")
-# b = 1000
+s1 = {1,2,3,4}
+s2 = {1,4,6,9,8}
 
-# boys = dict.fromkeys(a, b)
+s = s1.intersection(s2) # two set in a variable but only common value by "intersection"
+print(s)
 
-# print(boys)
+s1.intersection_update(s2) # joined two set but only common value output by "intersection_update"
+print(s1)
 
+s1 = {1,2,3,4}
+s2 = {1,4,6,9,8}
 
-# for key in students.keys():
-#     print(key, " => ", students[key])
+s = s1.symmetric_difference(s2) # two set in a variable but only uncommon value by "symmetric_difference"
+print(s)
 
-# for value in students.values():
-#     print(value)
+s1.symmetric_difference_update(s2) # joined two set but only uncommon value output by "symmetric_difference_update"
+print(s1)
 
-for item in students.items():
-    print(item[0] , " => ", item[1])
+"""DICTIONARIES"""
+Dic = {"Name":"Joy", "Age":23, "Job":"Student", "Study":"BSC"}
+print(type(Dic))
 
-# for key, value in students.items():
-#     print(key, " => ", value)
+nDis = dict(Name="Joy", Age=23, Job="Student", Study="BSC")
+print(nDis)
 
-# print(students.items())
+print(nDis["Name"])
 
-# # name, age, weight = ("rahim", 34, 99)
+'''Accessing Items'''
+Dic = {"Name":"Joy", "Age":23, "Job":"Student", "Study":"BSC"}
+print(Dic["Age"])
 
-# # print(name)
+x = Dic.get("Job")
+print(x)
 
-# # name, *others = ("rahim", 34, 99)
+print(Dic.keys())
 
-# # print(others)
+print(Dic.values())
 
+a = Dic.items()
+print(a)
 
+if "Name" in Dic:
+    print("Yes!!!!")
 
+'''Add & Change Dictionary Items'''
+Dic["Name"] = "Maynuddin Tuhin Joy"
+print(Dic)
 
+Dic.update({"Blood_G": "B+"})
+print(Dic)
 
-
-
-
-# student = {"rahim", "karim", "rafiq"} # set
-
-# student = {"name": "Rahim", "age": 12, "gender": "Male"}
-
-# print(type(student))
-
-# print(student["age"])
-
-# student["age"] += 2
-
-# student["cgpa"] = 3.8
-
-# student.update({"height": 5.8, "weight": 20})
-
-# student.pop("gender")
-
-# student.popitem()
-
-# # student.clear()
-
-# # del student
-
-# print(student.keys())
-
-# print(student.values())
-
-# print(student.items())
-
-# for key in student.keys():
-#     print(key)
-
-# for value in student.values():
-#     print(value)
-
-# numbers = (1, 2, 3)
-# num1, num2, num3 = (1, 2, 3)
-
-# num1, *nums = (1, 2, 3)
-
-# *nums, num3 = (1, 2, 3)
-
-# print(num3)
-
-# for item in student.items():
-#     print(item)
-
-# for key, value in student.items():
-#     print(f"{key} => {value}")
-
-
-
-# students = {"rafiq", "sofiq", "sohan", "rafiq", "salam", "sohan"}
-
-# print(students)
-
-# print("sofiq" in students)
-
-# students.add("razzaq")
-
-# students.update(["rakib", "monir", "sohan", "rahat"])
-
-# students.remove("sohan")
-
-# print(students)
-
-
-
-nums1 = {1, 2, 4, 6, 9, 8}
-nums2 = {4, 2, 7, 10}
-
-# print(nums1.union(nums2))
-
-# nums1.update(nums2)
-
-# print(nums1)
-
-# print(nums1.intersection(nums2))
-
-# nums1.intersection_update(nums2)
-
-# print(nums1)
-
-# print(nums1.symmetric_difference(nums2))
-
-# nums1.symmetric_difference_update(nums2)
-
-# print(nums1)
-
-
-# age = 3
-# name = "Rafiq"
-
-# print(f"{name}'s age is {age}")
-
-# print(name + "'s age is " + str(age))
-
-
-
-
-student = {"name": "Rahim", "age": 34, "gender": "Male", "asset": 5000}
-
-print(student["age"])
-
-student["age"] += 2
-
-student["cgpa"] = 3.8
-
-student.update({"height": 5.8, "weight": 45})
-
-student.pop("age")
-
-student.popitem()
-
-print(student.get("boyos"))
-
-print(student.setdefault("asset", 3000))
-
-print(student)
-
-# student.clear()
-
-# print(student)
-
-print(student.keys())
-
-for key in student.keys():
-    print(key)
-
-print(student.values())
-
-for value in student.values():
-    print(value)
-
-print(student.items())
-
-# for item in student.items():
-#     # print(item)
-#     # print(item[0] + " => " + str(item[1]))
-#     print(f"{item[0]} => {item[1]}")
-
-# a, b = (1, 2)
-
-# for key, value in student.items():
-#     # print(item)
-#     # print(item[0] + " => " + str(item[1]))
-#     print(f"{key} => {value}")
-
-
-
-students = {"rafiq", "sofiq", "sohan", "jobbar", "sohan", "rafiq"}
-
-print(students)
-
-# print("jovan" in students)
-
-students.add("jovan")
-
-students.add("jovan")
-
-students.update(["sohid", "shakil"])
-
-students.remove("sohan")
-
-# students.clear()
-
-print(students)
-
-
-
-
-# nums1 = {1, 2, 4, 6, 9, 8}
-# nums2 = {4, 2, 7, 10}
-
-# print(nums1.union(nums2))
-
-# print(nums1)
-
-# nums1.update(nums2)
-
-# print(nums1)
-
-# print(nums1.intersection(nums2))
-
-# print(nums1)
-
-# nums1.intersection_update(nums2)
-
-# print(nums1)
-
-# print(nums1.symmetric_difference(nums2))
-
-# nums1.symmetric_difference_update(nums2)
-
-# print(nums1)
-
-
-
-nums1 = {1,2, 3, 4, 5,6, 7, 8, 9}
-nums2 = {4, 6, 9}
-
-print(nums2.issubset(nums1))
-
-print(nums2.issuperset(nums1))
-
-print(nums1.issuperset(nums2))
-
+Dic.pop("Job")
+print(Dic)
+
+Dic.popitem()
+print(Dic)
+
+Dic.clear()
+print(Dic)
+
+del Dic
+# print(Dic)
+
+'''Loop Dictionaries'''
+Dic = {"Name":"Joy", "Age":23, "Job":"Student", "Study":"BSC"}
+for a in Dic:
+    print(a)
+
+for b in Dic.items():
+    print(b)
+
+for c in Dic.values():
+    print(c)
+
+for d in Dic.keys():
+    print(d)
+
+for x, y in Dic.items():
+    print(x,y)
+
+'''Copy Dictionary'''
+Dic = {"Name":"Joy", "Age":23, "Job":"Student", "Study":"BSC"}
+Dic2 = Dic.copy()
+print(Dic2)
+
+Dic3 = dict(Dic)
+print(Dic3)
+
+'''Nested Dictionaries'''
+myfamily = {
+  "child1" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Linus",
+    "year" : 2011
+  }
+}
+print(myfamily)
+
+child1 = {
+  "name" : "Emil",
+  "year" : 2004
+}
+child2 = {
+  "name" : "Tobias",
+  "year" : 2007
+}
+child3 = {
+  "name" : "Linus",
+  "year" : 2011
+}
+
+myfamily1 = {
+  "child1" : child1,
+  "child2" : child2,
+  "child3" : child3
+}
+print(myfamily1)
