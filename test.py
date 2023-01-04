@@ -801,3 +801,5 @@ myfamily1 = {
   "child3" : child3
 }
 print(myfamily1)
+
+# Class 8: (Getting started with function in Python, Recursive function, Introduction to lambda function in Python, Introduction to built in function in Python, Scopes in Python, Pass statement in python)
