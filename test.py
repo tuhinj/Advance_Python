@@ -846,11 +846,6 @@ def myfunction(): # put in the pass statement to avoid getting an error.
   pass
 
 """Recursive function"""
-def ex(a):
-    # s = a + (a-1)
-    print(a)
-ex(10-1)
-
 def rec_fun(k):
     if (k > 0):
         result = k + rec_fun(k - 1)
@@ -858,5 +853,4 @@ def rec_fun(k):
     else:
         result = 0
     return result
-
 rec_fun(10)
