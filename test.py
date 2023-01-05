@@ -846,3 +846,6 @@ def myfunction(): # put in the pass statement to avoid getting an error.
   pass
 
 """Recursive function"""
+def rec_fun(name):
+    print('hello')
+rec_fun("Joy")
