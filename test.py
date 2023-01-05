@@ -846,6 +846,12 @@ def myfunction(): # put in the pass statement to avoid getting an error.
   pass
 
 """Recursive function"""
-def rec_fun(name):
-    print('hello')
-rec_fun("Joy")
+def rec_fun(k):
+    if (k > 0):
+        result = k + rec_fun(k - 1)
+        print(result)
+    else:
+        result = 0
+    return result
+
+rec_fun(10)
