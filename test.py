@@ -847,9 +847,9 @@ def myfunction(): # put in the pass statement to avoid getting an error.
 
 """Recursive function"""
 def ex(a):
-    s = a + (a-1)
-    print(s)
-ex(10)
+    # s = a + (a-1)
+    print(a)
+ex(10-1)
 
 def rec_fun(k):
     if (k > 0):
