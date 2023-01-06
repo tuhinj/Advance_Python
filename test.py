@@ -916,3 +916,8 @@ import modul
 modul.full_name("Maynuddin Tuhin Joy")
 
 print(modul.family["Father"], modul.family["Mother"], modul.family["Name"])
+
+'''Re-naming a Module'''
+import modul as joy
+joy.full_name("Hasibul Islam Shanto")
+
