@@ -882,3 +882,23 @@ def fun_1():
     print(x)
 fun_1()
 
+def f_1():
+    x = 1000
+    def f_2():
+        print(x)
+    f_2()
+f_1()
+
+'''Global variables'''
+x1 = 400
+def func_1():
+    print(x1)
+func_1()
+
+x2 = 700
+def func_2(num1):
+    global x2
+    a = x2 + num1
+    print(a)
+func_2(300)
+
