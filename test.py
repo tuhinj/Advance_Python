@@ -921,3 +921,8 @@ print(modul.family["Father"], modul.family["Mother"], modul.family["Name"])
 import modul as joy
 joy.full_name("Hasibul Islam Shanto")
 
+import platform
+print(platform.system())
+print(platform.architecture())
+print(platform.freedesktop_os_release())
+
