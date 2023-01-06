@@ -961,3 +961,6 @@ y = math.floor(1.4)
 
 print(x) # returns 2
 print(y) # returns 1
+
+z = math.pi
+print(z)
