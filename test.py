@@ -902,3 +902,8 @@ def func_2(num1):
     print("sum:",a)
 func_2(300)
 
+'''Pass'''
+def function1(word):
+    pass
+
+# Class 9: 
