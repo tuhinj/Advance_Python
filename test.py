@@ -877,3 +877,8 @@ print("LAMBDA",myfun_num(12))
 print("LAMBDA",myfun_num1(10))
 
 """Scopes"""
+def fun_1():
+    x = 300
+    print(x)
+fun_1()
+
