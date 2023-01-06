@@ -925,4 +925,8 @@ import platform
 print(platform.system())
 print(platform.architecture())
 print(platform.freedesktop_os_release())
+print(platform.node())
+print(platform.machine())
+print(platform.python_compiler())
+print(platform.uname())
 
