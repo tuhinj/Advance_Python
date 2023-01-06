@@ -907,3 +907,4 @@ def function1(word):
     pass
 
 # Class 9: (Modules in python, Creating basic modules, Built in modules in Python, Working with Python Dates, Working with Math module, Introduction to PIP)
+"""Modules"""
