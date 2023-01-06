@@ -908,9 +908,11 @@ def function1(word):
 
 # Class 9: (basic modules, Built in modules in Python, Working with Python Dates, Working with Math module, Introduction to PIP)
 """Modules"""
+'''Creating a module.py file and inport it by using "import" '''
 # def full_name(firstn):
 #     print(firstn + " Joy")
 
 import modul
 modul.full_name("Maynuddin Tuhin Joy")
 
+print(modul.family["Father"], modul.family["Mother"], modul.family["Name"])
