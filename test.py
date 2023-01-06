@@ -899,6 +899,6 @@ x2 = 700
 def func_2(num1):
     global x2
     a = x2 + num1
-    print(a)
+    print("sum:",a)
 func_2(300)
 
