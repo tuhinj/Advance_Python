@@ -868,4 +868,12 @@ mydoubler = myfunc(2)
 
 print(mydoubler(10))
 
+def myfunc(a):
+    return lambda x : x * a
+myfun_num = myfunc(2)
+myfun_num1 = myfunc(4)
+
+print("LAMBDA",myfun_num(12))
+print("LAMBDA",myfun_num1(10))
+
 """Scopes"""
