@@ -930,3 +930,13 @@ print(platform.machine())
 print(platform.python_compiler())
 print(platform.uname())
 
+print(dir(platform))
+
+import datetime
+print(datetime.datetime.now())
+a = datetime.datetime.now()
+print(a.year)
+print(a.strftime("%A"))
+
+
+
