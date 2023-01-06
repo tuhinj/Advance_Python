@@ -908,6 +908,8 @@ def function1(word):
 
 # Class 9: (basic modules, Built in modules in Python, Working with Python Dates, Working with Math module, Introduction to PIP)
 """Modules"""
-def full_name(firstn):
-    print(firstn + " Joy")
+# def full_name(firstn):
+#     print(firstn + " Joy")
 
+import modul
+modul.full_name("Maynuddin Tuhin Joy")
