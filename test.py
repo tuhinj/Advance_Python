@@ -854,3 +854,7 @@ def rec_fun(k):
         result = 0
     return result
 rec_fun(10)
+
+"""LAMBDA"""
+x = lambda a : a + 12
+print("Sum:",x(2))
