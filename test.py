@@ -938,5 +938,5 @@ a = datetime.datetime.now()
 print(a.year)
 print(a.strftime("%A"))
 
-
+print(datetime.datetime(1999, 7, 6))
 
