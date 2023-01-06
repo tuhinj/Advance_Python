@@ -106,7 +106,6 @@ def print_name(name):
     
 print_name("Maynuddin")
 
-
 def print_dic(**valkey):
     print("The dic:",valkey)
 
