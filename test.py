@@ -978,13 +978,13 @@ print(c.hump(txt))
 # Class 10: (Debugging, Error handling in Python, Working with Try, Except, Else and Finally in Python)
 """Try"""
 try:
-    print(g)
+    # print(g)
 except:
     print("An exception occurred!")
 
 """Many Exceptions"""
 try:
-  print(t)
+#   print(t)
 except NameError:
   print("Variable x is not defined")
 except:
@@ -1000,7 +1000,7 @@ else:
 
 """Finally"""
 try:
-  print(u)
+#   print(u)
 except:
   print("Something went wrong")
 finally:
@@ -1028,3 +1028,5 @@ x = "hello"
 if not type(x) is int:
   raise TypeError("Only integers are allowed")
 
+# Class 11: (Iterators, Generators, Decorators)
+"""Iterators"""
