@@ -912,14 +912,14 @@ def function1(word):
 # def full_name(firstn):
 #     print(firstn + " Joy")
 
-import modul
-modul.full_name("Maynuddin Tuhin Joy")
+# import modul
+# modul.full_name("Maynuddin Tuhin Joy")
 
-print(modul.family["Father"], modul.family["Mother"], modul.family["Name"])
+# print(modul.family["Father"], modul.family["Mother"], modul.family["Name"])
 
-'''Re-naming a Module'''
-import modul as joy
-joy.full_name("Hasibul Islam Shanto")
+# '''Re-naming a Module'''
+# import modul as joy
+# joy.full_name("Hasibul Islam Shanto")
 
 import platform
 print(platform.system())
@@ -965,3 +965,14 @@ print(y) # returns 1
 z = math.pi
 print(z)
 
+"""pip"""
+"Check pip = pip --version"
+"Install pip pak = pip install camelcase"
+"Uninstall pip pak = pip uninstall camelcase"
+"Check pip pak = pip list"
+import camelcase
+c = camelcase.CamelCase()
+txt = "hello world"
+print(c.hump(txt))
+
+# Class 10: (Debugging, Error handling in Python, Working with Try, Except, Else and Finally in Python)
