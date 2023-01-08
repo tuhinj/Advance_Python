@@ -1030,3 +1030,32 @@ print(c.hump(txt))
 
 # Class 11: (Iterators, Generators, Decorators)
 """Iterators"""
+foots = ("Apple", "Banana", "Orange", "Gohaba")
+foot = iter(foots)
+
+print(next(foot))
+print(next(foot))
+print(next(foot))
+print(next(foot))
+
+a = "apple"
+b = iter(a)
+print(next(b))
+print(next(b))
+print(next(b))
+print(next(b))
+print(next(b))
+
+'''Create an Iterator'''
+class mynum:
+    def __iter__(self):
+        self.a = 1
+        return self
+    
+    def __next__(self):
+        x = self.a
+        self.a += 1
+        return x
+
+
+"""Generators"""
