@@ -1006,27 +1006,27 @@ print(c.hump(txt))
 # finally:
 #   print("The 'try except' is finished")
 
-try:
-  f = open("demofile.txt")
-  try:
-    f.write("Lorum Ipsum")
-  except:
-    print("Something went wrong when writing to the file")
-  finally:
-    f.close()
-except:
-  print("Something went wrong when opening the file")
+# try:
+#   f = open("demofile.txt")
+#   try:
+#     f.write("Lorum Ipsum")
+#   except:
+#     print("Something went wrong when writing to the file")
+#   finally:
+#     f.close()
+# except:
+#   print("Something went wrong when opening the file")
 
-"""Raise an exception"""
-x = -1
+# """Raise an exception"""
+# x = -1
 
-if x < 0:
-  raise Exception("Sorry, no numbers below zero")
+# if x < 0:
+#   raise Exception("Sorry, no numbers below zero")
 
-x = "hello"
+# x = "hello"
 
-if not type(x) is int:
-  raise TypeError("Only integers are allowed")
+# if not type(x) is int:
+#   raise TypeError("Only integers are allowed")
 
 # Class 11: (Iterators, Generators, Decorators)
 """Iterators"""
