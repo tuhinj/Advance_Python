@@ -1,4 +1,0 @@
-Hi again
-Hello from ugv
-We're learning python
-Hi there
