@@ -976,35 +976,35 @@ txt = "hello world"
 print(c.hump(txt))
 
 # Class 10: (Debugging, Error handling in Python, Working with Try, Except, Else and Finally in Python)
-"""Try"""
-try:
-    # print(g)
-except:
-    print("An exception occurred!")
+# """Try"""
+# try:
+#     # print(g)
+# except:
+#     print("An exception occurred!")
 
-"""Many Exceptions"""
-try:
-#   print(t)
-except NameError:
-  print("Variable x is not defined")
-except:
-  print("Something else went wrong")
+# """Many Exceptions"""
+# try:
+# #   print(t)
+# except NameError:
+#   print("Variable x is not defined")
+# except:
+#   print("Something else went wrong")
 
 """Else"""
-try:
-  print("Hello")
-except:
-  print("Something went wrong")
-else:
-  print("Nothing went wrong")
+# try:
+#   print("Hello")
+# except:
+#   print("Something went wrong")
+# else:
+#   print("Nothing went wrong")
 
-"""Finally"""
-try:
-#   print(u)
-except:
-  print("Something went wrong")
-finally:
-  print("The 'try except' is finished")
+# """Finally"""
+# try:
+# #   print(u)
+# except:
+#   print("Something went wrong")
+# finally:
+#   print("The 'try except' is finished")
 
 try:
   f = open("demofile.txt")
