@@ -1056,6 +1056,19 @@ class mynum:
         x = self.a
         self.a += 1
         return x
+class1 = mynum()
+myiter = iter(class1)
 
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
 
 """Generators"""
