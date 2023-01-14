@@ -1091,3 +1091,10 @@ for x in myiter:
   print(x)
 
 """Generators"""
+def hello(input):
+    print(f"Hello {input},What about you?")
+
+
+hello("Maynuddin")
+hello("Tuhin")
+hello("Joy")
