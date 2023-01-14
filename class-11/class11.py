@@ -61,3 +61,4 @@ for x in myiter:
   print(x)
 
 """Generators"""
+input('What is your name?')
