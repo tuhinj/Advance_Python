@@ -1094,6 +1094,4 @@ for x in myiter:
 print("hello World")
 print("hello World")
 print("hello World")
-print("hello World")
-print("hello World")
 
