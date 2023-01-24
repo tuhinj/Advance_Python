@@ -1091,7 +1091,4 @@ for x in myiter:
   print(x)
 
 """Generators"""
-print("hello World")
-print("hello World")
-print("hello World")
 
