@@ -34,7 +34,11 @@ Step-3:
 
 `django-admin startporject project_name .` (dot for create django dipendici in prasent folder)
 
-> 
+> Live the project.
+
+`python3 manage.py runserver`
+
+> Creat app
 
 
 
