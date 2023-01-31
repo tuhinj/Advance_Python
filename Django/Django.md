@@ -36,9 +36,20 @@ Step-3:
 
 > Live the project.
 
-`python3 manage.py runserver`
+`python3 manage.py runserver` (out this process 'ctl + c' select)
 
-> Creat app
+> Creat app.
+
+`python3 manage.py startapp my_app`
+
+Step-4:
+-------
+> Edit 2 file for link the app with the project (setting.y, urls.py)
+
+`myProject > settings.py > edit:INSTALLED_APP = ['my_app']`
+
+`myProject > urls.py > edit:from django.urls import path,include > urlpatterns = [path('admin/', admin.site.urls), path('',include('my_app.urls')),]
+
 
 
 
