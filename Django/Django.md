@@ -52,7 +52,9 @@ Step-4 (App):
 
 > Creat urls.py in my_app directory and add this code.
 
-`
+`from django.contrib import admin <enter> from django.urls import views <enter> urlpatterns = []`
+
+
 
 
 
