@@ -48,7 +48,7 @@ Step-4:
 
 `myProject > settings.py > edit:INSTALLED_APP = ['my_app']`
 
-`myProject > urls.py > edit:from django.urls import path,include > urlpatterns = [path('admin/', admin.site.urls), path('',include('my_app.urls')),]
+`myProject > urls.py > edit:from django.urls import path,include > urlpatterns = [path('admin/', admin.site.urls), path('',include('my_app.urls')),]`
 
 
 
