@@ -5,4 +5,4 @@ def home(request):
     dict ={
         'mane':'Maynuddin Tuhin Joy',
     }
-    return render(request, 'home.html')
+    return render(request, 'home.html',dict)
