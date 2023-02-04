@@ -6,3 +6,4 @@ def home(request):
         'mane':'Maynuddin Tuhin Joy',
     }
     return render(request, 'home.html',dict)
+    
