@@ -81,7 +81,7 @@
 
 > View the product name edit midels.py file
 
-`my_App > models.py > (same class add new function)edit: def __str__(self):<enter>        return self.name, self.price`
+`my_App > models.py > (same class add new function)edit: def __str__(self):<enter>        return self.name`
 
 
 
