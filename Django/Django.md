@@ -66,10 +66,13 @@
 > Create Super user
 
 `python manage.py createsuperuser`
+
 *`usern: <usern>, email: <any email>, passwd: <any passwd>`*
 
 > Run server again 
+
 `python manage.py runserver`
+
 *`127.0.01:8000/admin > login: usern, passwd`*
 
 > Model class register in admin panal
