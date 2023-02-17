@@ -67,13 +67,13 @@
 
 `python manage.py createsuperuser`
 
-*`usern: <usern>, email: <any email>, passwd: <any passwd>`*
+*usern: <usern>, email: <any email>, passwd: <any passwd>*
 
 > Run server again 
 
 `python manage.py runserver`
 
-*`127.0.01:8000/admin > login: usern, passwd`*
+*127.0.01:8000/admin > login: usern, passwd*
 
 > Model class register in admin panal
 
@@ -83,6 +83,9 @@
 
 `my_App > models.py > (same class add new function)edit: def __str__(self):<enter>        return self.name`
 
+> Make view in Views.py for user
+
+`
 
 
 `myProject > urls.py > edit:from django.urls import path,include > urlpatterns = [ path('',include('my_app.urls')),]`
