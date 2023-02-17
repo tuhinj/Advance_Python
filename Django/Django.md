@@ -67,7 +67,7 @@
 
 `python manage.py createsuperuser`
 
-*usern: <usern>, email: <any email>, passwd: <any passwd>*
+*usern: "usern", email: "any email", passwd: "any passwd"*
 
 > Run server again 
 
