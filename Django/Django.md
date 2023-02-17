@@ -83,11 +83,16 @@
 
 `my_App > models.py > (same class add new function)edit: def __str__(self):<enter>        return self.name`
 
-**CRUD Create**
-
+**Step 5(CRUD Create)**
+-----------------------
 > Make view in Views.py for user
 
 `my_App > views.py > edit: from django.shortcuts import render <enter> # Create your views here. <enter> # CRUD (Create, Retrieve/read, Update, Delete) <enter> # CREATE <enter> # RETRIEVE/READ <enter> def product_list(request): <enter>    return render(request, 'products/product_list.html')`
+
+> Register view path in setting.py file
+
+`my_project > setting.py > edit: TEMPLATES = [<enter>    {<enter>        'BACKEND':  'DIRS': [BASE_DIR/ 'templates'],<enter>        'APP_DIRS': True,],},},]`
+
 
 
 `myProject > urls.py > edit:from django.urls import path,include > urlpatterns = [ path('',include('my_app.urls')),]`
