@@ -87,11 +87,24 @@
 -----------------------
 > Make view in Views.py for user
 
-`my_App > views.py > edit: from django.shortcuts import render <enter> # Create your views here. <enter> # CRUD (Create, Retrieve/read, Update, Delete) <enter> # CREATE <enter> # RETRIEVE/READ <enter> def product_list(request): <enter>    return render(request, 'products/product_list.html')`
+`my_App > views.py > edit: from django.shortcuts import render <enter> from .models import Product <enter> # Create your views here. <enter> # CRUD (Create, Retrieve/read, Update, Delete) <enter> # CREATE <enter> # RETRIEVE/READ <enter> def product_list(request): <enter> # ORM - Object Relational Maper <enter>    product = Product.objects.all <enter>    context = {"products": product} <enter>     return render(request, 'products/product_list.html', context)`
 
-> Register view path in setting.py file
+> Register templates path in setting.py file
 
-`my_project > setting.py > edit: TEMPLATES = [<enter>    {<enter>        'BACKEND':  'DIRS': [BASE_DIR/ 'templates'],<enter>        'APP_DIRS': True,],},},]`
+`my_project > setting.py > edit: TEMPLATES = [{'DIRS': [BASE_DIR/ 'templates'],},]`
+
+> Print views object in html file 
+
+`my_App > templates/products/product_list.html > edit: <body> <enter>    {{ products }} <enter>  </body>`
+
+> Register views location in urls.py
+
+`my_project > urls.py > edit: from django.contrib import admin <enter> from django.urls import path <enter> from products.views import product_list <enter> urlpatterns = [path('admin/', admin.site.urls), <enter>    path('products/',product_list)]`
+
+*Agin run server*
+`127.0.0.1/products/ > hit`
+
+
 
 
 
