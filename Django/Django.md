@@ -35,7 +35,7 @@
 -----------------------
 > Creat Django project.
 
-`django-admin startporject project_name .` (dot for create django dipendici in prasent folder)
+`django-admin startproject project_name .` (dot for create django dipendici in prasent folder)
 
 > Live the project.
 
