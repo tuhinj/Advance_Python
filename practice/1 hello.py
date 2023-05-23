@@ -31,15 +31,15 @@
 # words = input("Enter a word: ")
 # print(f"{words} is Palindrome: {check_palindrome(words)}")
 
-def check_palindrome(strings):
-    reversed_word = ""
-    for chr in strings:
-        reversed_word = chr + reversed_word
-        print(reversed_word)
-    return strings == reversed_word
+# def check_palindrome(strings):
+#     reversed_word = ""
+#     for chr in strings:
+#         reversed_word = chr + reversed_word
+#         print(reversed_word)
+#     return strings == reversed_word
 
-word = input("Enter any word: ")
-print(f"{check_palindrome(word)}")
+# word = input("Enter any word: ")
+# print(f"{check_palindrome(word)}")
 
 ''' 4. Write a python program that reads a tesxt file and counts the frequency of each word in the file. Display the top three most frequent words along with their frequencies'''
 
