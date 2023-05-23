@@ -3,46 +3,68 @@
 string = 'Hello World'
 print(string)
 print(type(string))
+s="Hey Python myself Maynuddin Tuhin Joy"
+print(string, type(s))
 
 '''Numeric Types:	int, float, complex'''
 Integers = 12
 print(Integers)
 print(type(Integers))
+i=12
+print(i, type(i))
 
 floating = 12.3
 print(floating)
 print(type(floating))
+f=12.1
+print(f, type(f))
 
 complex_n = 23j
 print(complex_n)
 print(type(complex_n))
+c=12j
+print(c, type(c))
 
 '''Sequence Types:	list, tuple, range'''
 List = ["Joy", 23, "Student", "BSC"]
 print(List)
 print(type(List))
+l=["tuhin", 12, 12.1, 'student']
+print(l, type(l))
 
 Tuple = ("Joy", 23, "Student", "BSC")
 print(Tuple)
 print(type(Tuple))
+t=('Maynuddin', 21, 3.23, "BCS")
+print(t, type(t))
 
 Range = range(23)
 print(Range)
 print(type(Range))
+r=range(12)
+print(r,type(r))
+
 
 '''Mapping Type:	dict'''
 Dic = {"Name":"Joy", "Age":23, "Job":"Student", "Study":"BSC"}
 print(Dic)
 print(type(Dic))
+d={"name":"007","age":23, "job":"Student"}
+print(d,type(d))
 
 '''Set Types:	set, frozenset'''
 Set_type = {"Joy", 23, "Student", "BSC"}
 print(Set_type)
 print(type(Set_type))
+s={"007","Jemse Bond"}
+print(s, type(s))
 
 Frozenset = frozenset({"Joy", 23, "Student", "BSC"})
 print(Frozenset)
 print(type(Frozenset))
+f=frozenset('joy',34,"student")
+print(f, type(f))
+
 
 '''Boolean Type:	boolean'''
 a = True
