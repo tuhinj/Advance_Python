@@ -40,3 +40,30 @@ def check_palindrome(strings):
 
 word = input("Enter any word: ")
 print(f"{check_palindrome(word)}")
+
+''' 4. Write a python program that reads a tesxt file and counts the frequency of each word in the file. Display the top three most frequent words along with their frequencies'''
+
+from collections import Counter
+
+# Read the text file
+file_name = input("Enter the name of the text file: ")
+with open(file_name, 'r') as file:
+    text = file.read()
+
+# Remove punctuation marks and convert to lowercase
+text = text.lower()
+text = ''.join(c for c in text if c.isalpha() or c.isspace())
+
+# Split the text into words
+words = text.split()
+
+# Count the frequency of each word
+word_counts = Counter(words)
+
+# Get the top three most frequent words
+top_three = word_counts.most_common(3)
+
+# Display the top three most frequent words and their frequencies
+print("Top Three Most Frequent Words:")
+for word, count in top_three:
+    print(f"{word}: {count}")
